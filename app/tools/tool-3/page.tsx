@@ -1,0 +1,33 @@
+import Link from "next/link";
+import { ArrowLeft } from "lucide-react";
+
+export default function Tool3Page() {
+  return (
+    <div className="min-h-screen bg-warm-greige">
+      <div className="max-w-5xl mx-auto px-4 py-16">
+        <Link
+          href="/"
+          className="inline-flex items-center gap-2 text-secondary hover:text-primary transition-colors mb-12"
+        >
+          <ArrowLeft className="w-4 h-4" />
+          Back to Home
+        </Link>
+
+        <div className="text-center py-32">
+          <h1 className="text-5xl font-bold text-content-primary mb-6">Tool 3</h1>
+          <div className="w-24 h-24 bg-gradient-to-br from-pink to-primary rounded-full mx-auto mb-8" />
+          <p className="text-2xl text-content-secondary mb-8">Coming Soon</p>
+          <p className="text-lg text-content-tertiary mb-12 max-w-2xl mx-auto">
+            We're working on the next big thing. Stay tuned.
+          </p>
+          <Link
+            href="/"
+            className="inline-flex items-center justify-center px-6 py-3 bg-taupe-charcoal text-cream-white font-semibold rounded-lg hover:bg-near-black transition-all"
+          >
+            Explore Other Tools
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+}

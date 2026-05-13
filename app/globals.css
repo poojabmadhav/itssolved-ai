@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white;
+}
+
+/* Smooth transitions */
+button,
+a {
+  @apply transition-colors duration-200;
+}
+
+/* Selection */
+::selection {
+  background-color: #9FE870;
+  color: #163300;
+}
+
+::-moz-selection {
+  background-color: #9FE870;
+  color: #163300;
+}

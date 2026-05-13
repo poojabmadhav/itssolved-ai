@@ -1,0 +1,393 @@
+
+> app@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.86.104:3000
+✓ Ready in 141ms
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+
+ GET / 200 in 1220ms (next.js: 1119ms, application-code: 101ms)
+ GET /tools/penny-pincher 200 in 134ms (next.js: 126ms, application-code: 8ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2477:13)
+ GET / 200 in 15ms (next.js: 4ms, application-code: 11ms)
+Error: Cannot apply unknown utility class `bg-background`
+    [2m[at onInvalidCandidate (/Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/node_modules/tailwindcss/dist/lib.js:21:1511)][0m
+    [2m[at Ne (/Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/node_modules/tailwindcss/dist/lib.js:16:38783)][0m
+    [2m[at /Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/node_modules/tailwindcss/dist/lib.js:21:355][0m
+    [2m[at zr (/Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/node_modules/tailwindcss/dist/lib.js:3:1733)][0m
+    [2m[at I (/Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/node_modules/tailwindcss/dist/lib.js:3:1377)][0m
+    [2m[at Ee (/Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/node_modules/tailwindcss/dist/lib.js:21:172)][0m
+    [2m[at vn (/Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/node_modules/tailwindcss/dist/lib.js:38:294)][0m
+    [2m[at async kn (/Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/node_modules/tailwindcss/dist/lib.js:38:631)][0m
+    [2m[at async Xr (/Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/node_modules/@tailwindcss/node/dist/index.js:10:3415)][0m
+    [2m[at async E (/Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/node_modules/@tailwindcss/postcss/dist/index.js:10:3983)][0m
+✓ Compiled in 26ms
+⨯ ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/app/globals.css:1:1: Cannot apply unknown utility class `bg-background`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/node_modules/@tailwindcss/postcss/dist/index.js:10:6917)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+✓ Compiled in 17ms
+ GET / 500 in 359ms (next.js: 309ms, application-code: 49ms)
+⨯ ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/app/globals.css:1:1: Cannot apply unknown utility class `bg-background`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/node_modules/@tailwindcss/postcss/dist/index.js:10:6917)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+ GET / 500 in 5ms (next.js: 1851µs, application-code: 3ms)
+⨯ ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/app/globals.css:1:1: Cannot apply unknown utility class `bg-background`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/node_modules/@tailwindcss/postcss/dist/index.js:10:6917)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+ GET / 500 in 5ms (next.js: 1332µs, application-code: 4ms)
+⨯ ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/app/globals.css:1:1: Cannot apply unknown utility class `bg-background`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/node_modules/@tailwindcss/postcss/dist/index.js:10:6917)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+⨯ ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/app/globals.css:1:1: Cannot apply unknown utility class `bg-background`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/node_modules/@tailwindcss/postcss/dist/index.js:10:6917)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+ GET / 500 in 7ms (next.js: 3ms, application-code: 3ms)
+ GET / 500 in 10ms (next.js: 6ms, application-code: 4ms)
+[browser] Uncaught Error: ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/app/globals.css:1:1: Cannot apply unknown utility class `bg-background`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/node_modules/@tailwindcss/postcss/dist/index.js:10:6917)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+⨯ ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/app/globals.css:1:1: Cannot apply unknown utility class `bg-background`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/node_modules/@tailwindcss/postcss/dist/index.js:10:6917)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+ GET / 500 in 7ms (next.js: 3ms, application-code: 4ms)
+[browser] Uncaught Error: ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/app/globals.css:1:1: Cannot apply unknown utility class `bg-background`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/node_modules/@tailwindcss/postcss/dist/index.js:10:6917)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+⨯ ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/app/globals.css:1:1: Cannot apply unknown utility class `bg-background`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/node_modules/@tailwindcss/postcss/dist/index.js:10:6917)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+ GET / 500 in 8ms (next.js: 3ms, application-code: 5ms)
+[browser] Uncaught Error: ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/app/globals.css:1:1: Cannot apply unknown utility class `bg-background`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/node_modules/@tailwindcss/postcss/dist/index.js:10:6917)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+Error: Cannot apply unknown utility class `bg-primary`
+    [2m[at onInvalidCandidate (/Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/node_modules/tailwindcss/dist/lib.js:21:1511)][0m
+    [2m[at Ne (/Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/node_modules/tailwindcss/dist/lib.js:16:38783)][0m
+    [2m[at /Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/node_modules/tailwindcss/dist/lib.js:21:355][0m
+    [2m[at zr (/Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/node_modules/tailwindcss/dist/lib.js:3:1733)][0m
+    [2m[at I (/Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/node_modules/tailwindcss/dist/lib.js:3:1377)][0m
+    [2m[at Ee (/Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/node_modules/tailwindcss/dist/lib.js:21:172)][0m
+    [2m[at vn (/Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/node_modules/tailwindcss/dist/lib.js:38:294)][0m
+    [2m[at async kn (/Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/node_modules/tailwindcss/dist/lib.js:38:631)][0m
+    [2m[at async Xr (/Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/node_modules/@tailwindcss/node/dist/index.js:10:3415)][0m
+    [2m[at async E (/Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/node_modules/@tailwindcss/postcss/dist/index.js:10:3983)][0m
+⨯ ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/app/globals.css:1:1: Cannot apply unknown utility class `bg-primary`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/node_modules/@tailwindcss/postcss/dist/index.js:10:6917)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+ GET / 500 in 10ms (next.js: 4ms, application-code: 6ms)
+[browser] Uncaught Error: ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/app/globals.css:1:1: Cannot apply unknown utility class `bg-primary`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/node_modules/@tailwindcss/postcss/dist/index.js:10:6917)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+ GET / 200 in 67ms (next.js: 22ms, application-code: 45ms)
+ GET / 200 in 30ms (next.js: 1444µs, application-code: 29ms)
+ GET /tools/penny-pincher 200 in 42ms (next.js: 15ms, application-code: 26ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2477:13)
+ GET / 200 in 21ms (next.js: 4ms, application-code: 17ms)
+ GET /tools/penny-pincher 200 in 28ms (next.js: 3ms, application-code: 25ms)
+✓ Compiled in 9ms
+ GET / 200 in 36ms (next.js: 14ms, application-code: 22ms)
+ GET / 200 in 14ms (next.js: 1098µs, application-code: 13ms)
+ GET /tools/penny-pincher 200 in 52ms (next.js: 1854µs, application-code: 51ms)
+ GET /tools/penny-pincher 200 in 37ms (next.js: 692µs, application-code: 36ms)
+ GET / 200 in 10ms (next.js: 1699µs, application-code: 8ms)
+ GET /tools/penny-pincher 200 in 25ms (next.js: 947µs, application-code: 24ms)
+ GET /tools/penny-pincher 200 in 65ms (next.js: 4ms, application-code: 62ms)
+ GET / 200 in 19ms (next.js: 4ms, application-code: 15ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2477:13)
+✓ Compiled in 11ms
+ GET / 200 in 19ms (next.js: 1909µs, application-code: 17ms)
+ GET / 200 in 8ms (next.js: 740µs, application-code: 8ms)
+ GET / 200 in 21ms (next.js: 2ms, application-code: 19ms)
+ GET / 200 in 10ms (next.js: 781µs, application-code: 9ms)
+ GET / 200 in 77ms (next.js: 32ms, application-code: 45ms)
+ GET / 200 in 41ms (next.js: 17ms, application-code: 24ms)
+ GET / 200 in 14ms (next.js: 831µs, application-code: 13ms)
+ GET / 200 in 18ms (next.js: 756µs, application-code: 17ms)
+ GET / 200 in 19ms (next.js: 662µs, application-code: 18ms)
+ GET / 200 in 19ms (next.js: 604µs, application-code: 19ms)
+ GET / 200 in 20ms (next.js: 578µs, application-code: 20ms)
+ GET / 200 in 20ms (next.js: 906µs, application-code: 19ms)
+ GET / 200 in 22ms (next.js: 582µs, application-code: 21ms)
+ GET / 200 in 21ms (next.js: 708µs, application-code: 20ms)
+ GET / 200 in 20ms (next.js: 598µs, application-code: 20ms)
+ GET / 200 in 18ms (next.js: 692µs, application-code: 18ms)
+ GET / 200 in 19ms (next.js: 558µs, application-code: 18ms)
+ GET / 200 in 20ms (next.js: 448µs, application-code: 19ms)
+ GET / 200 in 20ms (next.js: 507µs, application-code: 19ms)
+ GET / 200 in 18ms (next.js: 667µs, application-code: 18ms)
+ GET / 200 in 13ms (next.js: 512µs, application-code: 12ms)
+ GET / 200 in 7ms (next.js: 498µs, application-code: 6ms)
+ GET /tools/penny-pincher 200 in 39ms (next.js: 14ms, application-code: 25ms)
+ GET / 200 in 24ms (next.js: 17ms, application-code: 7ms)
+ GET /tools/penny-pincher 200 in 25ms (next.js: 2ms, application-code: 23ms)
+ GET / 200 in 20ms (next.js: 14ms, application-code: 6ms)
+ GET /tools/penny-pincher 200 in 21ms (next.js: 1491µs, application-code: 19ms)
+ GET / 200 in 25ms (next.js: 12ms, application-code: 12ms)
+ GET /tools/penny-pincher 200 in 26ms (next.js: 1491µs, application-code: 24ms)
+ GET / 200 in 8ms (next.js: 754µs, application-code: 7ms)
+ GET /tools/penny-pincher 200 in 21ms (next.js: 1610µs, application-code: 19ms)
+ GET / 200 in 20ms (next.js: 816µs, application-code: 19ms)
+ GET /tools/penny-pincher 200 in 21ms (next.js: 8ms, application-code: 13ms)
+ GET / 200 in 23ms (next.js: 986µs, application-code: 22ms)
+ GET /tools/penny-pincher 200 in 24ms (next.js: 11ms, application-code: 13ms)
+ GET /tools/penny-pincher 200 in 86ms (next.js: 3ms, application-code: 83ms)
+ GET /tools/penny-pincher 200 in 49ms (next.js: 4ms, application-code: 45ms)
+ GET /tools/penny-pincher 200 in 71ms (next.js: 48ms, application-code: 22ms)
+ GET /tools/penny-pincher 200 in 128ms (next.js: 23ms, application-code: 105ms)
+ GET / 200 in 84ms (next.js: 4ms, application-code: 80ms)
+ GET / 200 in 22ms (next.js: 1419µs, application-code: 20ms)
+ GET / 200 in 22ms (next.js: 1311µs, application-code: 21ms)
+ GET / 200 in 21ms (next.js: 3ms, application-code: 18ms)
+ GET /tools/penny-pincher 200 in 105ms (next.js: 826µs, application-code: 104ms)
+ GET / 200 in 10ms (next.js: 2ms, application-code: 8ms)
+ GET / 200 in 19ms (next.js: 5ms, application-code: 15ms)
+ GET /tools/penny-pincher 200 in 31ms (next.js: 4ms, application-code: 27ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2477:13)
+ GET / 200 in 27ms (next.js: 1868µs, application-code: 26ms)
+ GET /tools/penny-pincher 200 in 28ms (next.js: 13ms, application-code: 14ms)
+ GET / 200 in 25ms (next.js: 16ms, application-code: 8ms)
+ GET /tools/penny-pincher 200 in 26ms (next.js: 1834µs, application-code: 24ms)
+ GET / 200 in 20ms (next.js: 667µs, application-code: 19ms)
+ GET /tools/penny-pincher 200 in 21ms (next.js: 10ms, application-code: 11ms)
+ GET / 200 in 27ms (next.js: 878µs, application-code: 26ms)
+ GET /tools/penny-pincher 200 in 27ms (next.js: 9ms, application-code: 18ms)
+ GET / 200 in 19ms (next.js: 733µs, application-code: 18ms)
+ GET /tools/penny-pincher 200 in 20ms (next.js: 8ms, application-code: 11ms)
+ GET / 200 in 19ms (next.js: 13ms, application-code: 6ms)
+ GET /tools/penny-pincher 200 in 20ms (next.js: 1585µs, application-code: 18ms)
+ GET / 200 in 19ms (next.js: 13ms, application-code: 6ms)
+ GET /tools/penny-pincher 200 in 20ms (next.js: 1706µs, application-code: 18ms)
+ GET / 200 in 8ms (next.js: 996µs, application-code: 7ms)
+ GET /tools/penny-pincher 200 in 24ms (next.js: 1811µs, application-code: 22ms)
+ GET / 200 in 23ms (next.js: 16ms, application-code: 7ms)
+ GET /tools/penny-pincher 200 in 23ms (next.js: 1770µs, application-code: 22ms)
+ GET / 200 in 28ms (next.js: 2ms, application-code: 26ms)
+ GET /tools/penny-pincher 200 in 29ms (next.js: 15ms, application-code: 14ms)
+ GET /tools/penny-pincher 200 in 55ms (next.js: 4ms, application-code: 51ms)
+ GET / 200 in 19ms (next.js: 798µs, application-code: 19ms)
+ GET /tools/penny-pincher 200 in 13ms (next.js: 1514µs, application-code: 11ms)
+ GET / 200 in 19ms (next.js: 4ms, application-code: 15ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2477:13)
+✓ Compiled in 144ms
+ GET / 200 in 19ms (next.js: 3ms, application-code: 17ms)
+ GET / 200 in 7ms (next.js: 569µs, application-code: 7ms)
+ GET / 200 in 14ms (next.js: 638µs, application-code: 14ms)
+ GET / 200 in 7ms (next.js: 567µs, application-code: 7ms)
+ GET / 200 in 16ms (next.js: 1703µs, application-code: 15ms)
+ GET / 200 in 7ms (next.js: 629µs, application-code: 6ms)
+ GET / 200 in 15ms (next.js: 1536µs, application-code: 13ms)
+ GET / 200 in 7ms (next.js: 764µs, application-code: 6ms)
+✓ Compiled in 8ms
+ GET / 200 in 19ms (next.js: 1690µs, application-code: 17ms)
+ GET / 200 in 27ms (next.js: 856µs, application-code: 26ms)
+ GET / 200 in 20ms (next.js: 920µs, application-code: 19ms)
+ GET / 200 in 7ms (next.js: 717µs, application-code: 6ms)
+ GET / 200 in 16ms (next.js: 816µs, application-code: 15ms)
+ GET / 200 in 8ms (next.js: 814µs, application-code: 7ms)
+✓ Compiled in 7ms
+ GET / 200 in 14ms (next.js: 716µs, application-code: 13ms)
+ GET / 200 in 7ms (next.js: 526µs, application-code: 7ms)
+✓ Compiled in 6ms
+ GET / 200 in 13ms (next.js: 861µs, application-code: 12ms)
+ GET / 200 in 6ms (next.js: 629µs, application-code: 6ms)
+✓ Compiled in 5ms
+ GET / 200 in 16ms (next.js: 703µs, application-code: 16ms)
+ GET / 200 in 8ms (next.js: 864µs, application-code: 7ms)
+✓ Compiled in 6ms
+ GET / 200 in 13ms (next.js: 721µs, application-code: 13ms)
+ GET / 200 in 7ms (next.js: 760µs, application-code: 6ms)
+✓ Compiled in 6ms
+ GET / 200 in 15ms (next.js: 732µs, application-code: 15ms)
+ GET / 200 in 8ms (next.js: 729µs, application-code: 7ms)
+✓ Compiled in 8ms
+ GET / 200 in 18ms (next.js: 953µs, application-code: 17ms)
+ GET / 200 in 10ms (next.js: 842µs, application-code: 9ms)
+✓ Compiled in 7ms
+ GET / 200 in 18ms (next.js: 1011µs, application-code: 17ms)
+ GET / 200 in 8ms (next.js: 779µs, application-code: 8ms)
+✓ Compiled in 7ms
+ GET / 200 in 17ms (next.js: 937µs, application-code: 16ms)
+ GET / 200 in 8ms (next.js: 771µs, application-code: 8ms)
+✓ Compiled in 6ms
+ GET / 200 in 43ms (next.js: 4ms, application-code: 40ms)
+ GET / 200 in 29ms (next.js: 3ms, application-code: 26ms)
+ GET / 200 in 35ms (next.js: 4ms, application-code: 31ms)
+ GET / 200 in 21ms (next.js: 1614µs, application-code: 20ms)
+ GET / 200 in 12ms (next.js: 3ms, application-code: 8ms)
+ GET / 200 in 12ms (next.js: 1525µs, application-code: 10ms)
+ GET / 200 in 10ms (next.js: 3ms, application-code: 6ms)
+ GET / 200 in 13ms (next.js: 1520µs, application-code: 11ms)
+ GET /tools/penny-pincher 200 in 28ms (next.js: 7ms, application-code: 21ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2477:13)
+ GET / 200 in 20ms (next.js: 12ms, application-code: 7ms)
+ GET /tools/penny-pincher 200 in 20ms (next.js: 882µs, application-code: 20ms)
+ GET / 200 in 22ms (next.js: 1806µs, application-code: 20ms)
+ GET /tools/penny-pincher 200 in 22ms (next.js: 10ms, application-code: 12ms)
+ GET /tools/penny-pincher 200 in 40ms (next.js: 2ms, application-code: 38ms)
+ GET /tools/penny-pincher 200 in 27ms (next.js: 1078µs, application-code: 26ms)
+ GET / 200 in 19ms (next.js: 4ms, application-code: 16ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2477:13)
+ GET /tools/penny-pincher 200 in 24ms (next.js: 4ms, application-code: 20ms)
+ GET / 200 in 18ms (next.js: 3ms, application-code: 15ms)
