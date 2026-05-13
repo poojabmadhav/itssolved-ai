@@ -3,9 +3,9 @@ import { ArrowLeft, ExternalLink, Check } from "lucide-react";
 
 export default function PennyPincherPage() {
   return (
-    <div className="min-h-screen bg-bg">
+    <div className="min-h-screen bg-[#B9A89B]">
       {/* Header with CTA Button at Top */}
-      <section className="border-b border-taupe border-opacity-20 bg-bg sticky top-16 z-40">
+      <section className="border-b border-[#6C6661] border-opacity-20 bg-[#B9A89B] sticky top-16 z-40">
         <div className="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between gap-8">
           <div>
             <h1 className="text-3xl font-bold text-content-primary">PennyPincher</h1>
@@ -15,7 +15,7 @@ export default function PennyPincherPage() {
             href="https://penny-pincher-app.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex-shrink-0 inline-flex items-center justify-center gap-2 px-6 py-3 bg-taupe text-cream font-semibold rounded-lg hover:bg-charcoal transition-all"
+            className="flex-shrink-0 inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#6C6661] text-[#F6F5F2] font-semibold rounded-lg hover:bg-[#221F1E] transition-all"
           >
             open in new window <ExternalLink className="w-4 h-4" />
           </a>
@@ -23,16 +23,16 @@ export default function PennyPincherPage() {
       </section>
 
       {/* Live Demo */}
-      <section className="max-w-5xl mx-auto px-4 py-4 border-b border-taupe border-opacity-20">
-        <div className="rounded-lg border border-taupe border-opacity-30 overflow-hidden bg-ivory mb-2">
+      <section className="max-w-5xl mx-auto px-4 py-4 border-b border-[#6C6661] border-opacity-20">
+        <div className="rounded-lg border border-[#6C6661] border-opacity-30 overflow-hidden bg-[#EFEBE4] mb-2">
           <iframe
             src="https://penny-pincher-app.vercel.app"
             className="w-full h-[600px] border-0"
             title="PennyPincher Live Demo"
           />
         </div>
-        <div className="p-4 bg-taupe bg-opacity-10 border border-taupe border-opacity-20 rounded-lg">
-          <p className="text-taupe text-sm">
+        <div className="p-4 bg-[#6C6661] bg-opacity-10 border border-[#6C6661] border-opacity-20 rounded-lg">
+          <p className="text-[#6C6661] text-sm">
             💡 <strong>Tip:</strong> Try uploading a sample CSV to see the full experience. Download a real statement
             from your bank to get started.
           </p>
@@ -40,7 +40,7 @@ export default function PennyPincherPage() {
       </section>
 
       {/* Features */}
-      <section className="max-w-5xl mx-auto px-4 py-8 border-b border-taupe border-opacity-20">
+      <section className="max-w-5xl mx-auto px-4 py-8 border-b border-[#6C6661] border-opacity-20">
         <h3 className="text-3xl font-bold text-content-primary mb-8">Features</h3>
         <div className="grid md:grid-cols-2 gap-8">
           {[
@@ -65,13 +65,13 @@ export default function PennyPincherPage() {
               items: ["CSV export (re-uploadable)", "PDF dashboard", "No accounts needed", "No tracking"],
             },
           ].map((feature, i) => (
-            <div key={i} className="p-8 bg-ivory rounded-lg border border-taupe border-opacity-20 hover:border-taupe transition-colors">
+            <div key={i} className="p-8 bg-[#EFEBE4] rounded-lg border border-[#6C6661] border-opacity-20 hover:border-[#6C6661] transition-colors">
               <h4 className="text-xl font-bold text-content-primary mb-3">{feature.title}</h4>
               <p className="text-content-secondary text-sm mb-6">{feature.description}</p>
               <div className="flex flex-wrap gap-2">
                 {feature.items.map((item, j) => (
                   <div key={j} className="flex items-center gap-2">
-                    <Check className="w-4 h-4 text-taupe" />
+                    <Check className="w-4 h-4 text-[#6C6661]" />
                     <span className="text-sm text-content-secondary">{item}</span>
                   </div>
                 ))}
