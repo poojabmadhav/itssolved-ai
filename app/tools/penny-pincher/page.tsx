@@ -10,7 +10,7 @@ export default function PennyPincherPage() {
         <div className="rounded-lg border border-[#6C6661] border-opacity-30 overflow-hidden bg-[#EFEBE4] mb-2">
           <iframe
             src="https://penny-pincher-app.vercel.app"
-            className="w-full h-[600px] border-0"
+            className="w-full h-screen border-0"
             title="PennyPincher Live Demo"
           />
         </div>
