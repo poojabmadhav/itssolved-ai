@@ -14,8 +14,8 @@ export default function Navbar() {
     <nav className="bg-[#B9A89B] border-b border-[#6C6661] border-opacity-20 sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/" className="flex flex-col">
-          <span className="text-2xl font-bold text-secondary">itssolved.ai</span>
-          <span className="text-xs text-content-secondary">AI-powered tools that solve real problems without sacrificing privacy or simplicity.</span>
+          <span className="text-5xl font-bold text-secondary">itssolved.ai</span>
+          <span className="text-base font-semibold text-content-secondary">We solved the boring stuff. Go solve what matters.</span>
         </Link>
         <div className="flex gap-8 items-center">
           <Link href="/" className={`transition-colors ${isActive("/")}`}>

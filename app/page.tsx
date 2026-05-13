@@ -6,7 +6,7 @@ export default function Home() {
     {
       id: 1,
       name: "PennyPincher",
-      description: "Privacy-first budgeting. Control your finances without compromising privacy.",
+      description: "Track where your pennies roll while your data stays on your device.",
       status: "Live",
       link: "/tools/penny-pincher",
       color: "bg-[#6C6661]",
@@ -32,32 +32,37 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[#B9A89B]">
       {/* Tools Grid */}
-      <section id="tools" className="px-4 py-12 max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-10 text-content-primary">Tools</h2>
+      <section id="tools" className="px-4 py-6 max-w-6xl mx-auto">
         <div className="grid md:grid-cols-3 gap-6">
           {tools.map((tool) => (
             <Link
               key={tool.id}
               href={tool.link}
-              className="group relative overflow-hidden rounded-xl bg-[#EFEBE4] border border-[#6C6661] border-opacity-20 hover:border-[#6C6661] hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+              className="group relative overflow-hidden rounded-xl bg-[#EFEBE4] border border-[#6C6661] border-opacity-20 hover:border-[#6C6661] hover:shadow-lg transition-all duration-300 hover:-translate-y-1 flex flex-col"
             >
-              <div className={`h-32 ${tool.color}`} />
-              <div className="p-6">
-                <div className="flex items-start justify-between mb-3">
-                  <h3 className="text-2xl font-bold text-content-primary">{tool.name}</h3>
+              <div className="p-6 flex-1 flex flex-col">
+                <div className="flex items-start justify-between gap-4 mb-4">
+                  <div className="flex-1">
+                    <h3 className="text-2xl font-bold text-content-primary mb-2">{tool.name}</h3>
+                  </div>
+                  <div className={`w-16 h-16 rounded-lg flex items-center justify-center text-3xl flex-shrink-0 ${tool.color}`}>
+                    {tool.id === 1 ? "🏦" : tool.id === 2 ? "🔮" : "🎯"}
+                  </div>
+                </div>
+                <p className="text-content-secondary mb-6 flex-1">{tool.description}</p>
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-2 text-secondary font-semibold group-hover:translate-x-1 transition-transform">
+                    Learn More <ArrowRight className="w-4 h-4" />
+                  </div>
                   <span
-                    className={`text-sm font-semibold px-3 py-1 rounded-full ${
+                    className={`text-xs font-semibold px-2 py-1 rounded-full whitespace-nowrap ${
                       tool.status === "Live"
                         ? "bg-positive bg-opacity-10 text-positive"
-                        : "bg-gray-100 text-content-secondary"
+                        : "bg-gray-200 text-content-secondary"
                     }`}
                   >
                     {tool.status}
                   </span>
-                </div>
-                <p className="text-content-secondary mb-4">{tool.description}</p>
-                <div className="flex items-center gap-2 text-secondary font-semibold group-hover:translate-x-1 transition-transform">
-                  Learn More <ArrowRight className="w-4 h-4" />
                 </div>
               </div>
             </Link>

@@ -5,11 +5,10 @@ export default function PennyPincherPage() {
   return (
     <div className="min-h-screen bg-[#B9A89B]">
       {/* Header with CTA Button at Top */}
-      <section className="border-b border-[#6C6661] border-opacity-20 bg-[#B9A89B] sticky top-16 z-40">
+      <section className="bg-[#B9A89B] sticky top-16 z-40">
         <div className="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between gap-8">
           <div>
-            <h1 className="text-3xl font-bold text-content-primary">PennyPincher</h1>
-            <p className="text-content-secondary text-sm">No tracking. No subscriptions or charges. No accounts creation. Just your data, local on your device.</p>
+            <h1 className="text-3xl font-bold text-[#6C6661]">PennyPincher</h1>
           </div>
           <a
             href="https://penny-pincher-app.vercel.app"
@@ -31,10 +30,9 @@ export default function PennyPincherPage() {
             title="PennyPincher Live Demo"
           />
         </div>
-        <div className="p-4 bg-[#6C6661] bg-opacity-10 border border-[#6C6661] border-opacity-20 rounded-lg">
-          <p className="text-[#6C6661] text-sm">
-            💡 <strong>Tip:</strong> Try uploading a sample CSV to see the full experience. Download a real statement
-            from your bank to get started.
+        <div className="p-4 bg-[#EFEBE4] border border-[#6C6661] border-opacity-30 rounded-lg">
+          <p className="text-[#221F1E] text-sm">
+            💡 <strong>Tip:</strong> Try uploading a sample CSV to see the full experience. Download a real statement from your bank to get started.
           </p>
         </div>
       </section>

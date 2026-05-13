@@ -474,3 +474,38 @@ Import trace:
  GET / 200 in 16ms (next.js: 938µs, application-code: 15ms)
  GET / 200 in 9ms (next.js: 559µs, application-code: 9ms)
 ✓ Compiled in 6ms
+ GET /tools/penny-pincher 200 in 14ms (next.js: 1714µs, application-code: 12ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2477:13)
+ GET / 200 in 16ms (next.js: 2ms, application-code: 14ms)
+ GET /tools/penny-pincher 200 in 22ms (next.js: 1957µs, application-code: 20ms)
+ GET / 200 in 17ms (next.js: 1626µs, application-code: 16ms)
+ GET / 200 in 8ms (next.js: 673µs, application-code: 8ms)
+ GET / 200 in 17ms (next.js: 1549µs, application-code: 16ms)
+ GET / 200 in 8ms (next.js: 706µs, application-code: 8ms)
+ GET /tools/penny-pincher 200 in 25ms (next.js: 4ms, application-code: 21ms)
+ GET /tools/penny-pincher 200 in 25ms (next.js: 4ms, application-code: 21ms)
+ GET / 200 in 18ms (next.js: 3ms, application-code: 15ms)
+ GET /tools/penny-pincher 200 in 24ms (next.js: 3ms, application-code: 21ms)
+ GET / 200 in 16ms (next.js: 1502µs, application-code: 14ms)
+ GET / 200 in 7ms (next.js: 576µs, application-code: 6ms)
+ GET / 200 in 36ms (next.js: 3ms, application-code: 32ms)
+ GET /tools/penny-pincher 200 in 25ms (next.js: 3ms, application-code: 22ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2477:13)
+ GET / 200 in 20ms (next.js: 793µs, application-code: 19ms)
+ GET /tools/penny-pincher 200 in 13ms (next.js: 1452µs, application-code: 11ms)
+ GET / 200 in 11ms (next.js: 1504µs, application-code: 10ms)
+ GET / 200 in 18ms (next.js: 2ms, application-code: 16ms)
+ GET / 200 in 17ms (next.js: 1476µs, application-code: 16ms)
+ GET / 200 in 9ms (next.js: 677µs, application-code: 8ms)
+✓ Compiled in 9ms
+ GET /tools/penny-pincher 200 in 27ms (next.js: 6ms, application-code: 21ms)
+✓ Compiled in 8ms
+✓ Compiled in 6ms
+✓ Compiled in 7ms
+✓ Compiled in 12ms
+ GET / 200 in 21ms (next.js: 1339µs, application-code: 20ms)
+ GET /tools/penny-pincher 200 in 21ms (next.js: 10ms, application-code: 12ms)
+ GET / 200 in 14ms (next.js: 2ms, application-code: 11ms)
+ GET /tools/penny-pincher 200 in 25ms (next.js: 4ms, application-code: 21ms)
+ GET / 200 in 19ms (next.js: 1196µs, application-code: 17ms)
+ GET /tools/penny-pincher 200 in 19ms (next.js: 8ms, application-code: 11ms)
