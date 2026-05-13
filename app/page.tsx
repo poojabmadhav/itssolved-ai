@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ArrowRight, ExternalLink } from "lucide-react";
 
 export default function Home() {
+  // Rebuild trigger
   const tools = [
     {
       id: 1,
