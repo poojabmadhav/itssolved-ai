@@ -9,13 +9,13 @@ const config: Config = {
     extend: {
       colors: {
         // Neutral Brown Palette
-        primary: "#B9A89B",           // Warm Greige (background)
-        secondary: "#221F1E",         // Near Black (text)
-        "cream-white": "#F6F5F2",     // Color 1
-        "soft-ivory": "#EFEBE4",      // Color 2
-        "warm-greige": "#B9A89B",     // Color 3
-        "taupe-charcoal": "#6C6661",  // Color 4
-        "near-black": "#221F1E",      // Color 5
+        primary: "#B9A89B",
+        secondary: "#221F1E",
+        bg: "#B9A89B",
+        ivory: "#EFEBE4",
+        taupe: "#6C6661",
+        cream: "#F6F5F2",
+        charcoal: "#221F1E",
         // Content colors
         "content-primary": "#221F1E",
         "content-secondary": "#6C6661",

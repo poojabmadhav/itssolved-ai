@@ -9,7 +9,7 @@ export default function Home() {
       description: "Privacy-first budgeting. Control your finances without compromising privacy.",
       status: "Live",
       link: "/tools/penny-pincher",
-      color: "bg-taupe-charcoal",
+      color: "bg-taupe",
     },
     {
       id: 2,
@@ -17,7 +17,7 @@ export default function Home() {
       description: "Coming soon. Something that will change how you work.",
       status: "Coming Soon",
       link: "/tools/tool-2",
-      color: "bg-taupe-charcoal",
+      color: "bg-taupe",
     },
     {
       id: 3,
@@ -25,12 +25,12 @@ export default function Home() {
       description: "Coming soon. More solutions on the way.",
       status: "Coming Soon",
       link: "/tools/tool-3",
-      color: "bg-taupe-charcoal",
+      color: "bg-taupe",
     },
   ];
 
   return (
-    <div className="min-h-screen bg-warm-greige">
+    <div className="min-h-screen bg-bg">
       {/* Tools Grid */}
       <section id="tools" className="px-4 py-12 max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-10 text-content-primary">Tools</h2>
@@ -39,7 +39,7 @@ export default function Home() {
             <Link
               key={tool.id}
               href={tool.link}
-              className="group relative overflow-hidden rounded-xl bg-soft-ivory border border-taupe-charcoal border-opacity-20 hover:border-taupe-charcoal hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+              className="group relative overflow-hidden rounded-xl bg-ivory border border-taupe border-opacity-20 hover:border-taupe hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
             >
               <div className={`h-32 ${tool.color}`} />
               <div className="p-6">

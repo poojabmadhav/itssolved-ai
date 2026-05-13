@@ -11,7 +11,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-warm-greige border-b border-taupe-charcoal border-opacity-20 sticky top-0 z-50">
+    <nav className="bg-bg border-b border-taupe border-opacity-20 sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/" className="flex flex-col">
           <span className="text-2xl font-bold text-secondary">itssolved.ai</span>

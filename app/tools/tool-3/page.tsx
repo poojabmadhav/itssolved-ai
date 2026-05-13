@@ -3,7 +3,7 @@ import { ArrowLeft } from "lucide-react";
 
 export default function Tool3Page() {
   return (
-    <div className="min-h-screen bg-warm-greige">
+    <div className="min-h-screen bg-bg">
       <div className="max-w-5xl mx-auto px-4 py-16">
         <Link
           href="/"
@@ -22,7 +22,7 @@ export default function Tool3Page() {
           </p>
           <Link
             href="/"
-            className="inline-flex items-center justify-center px-6 py-3 bg-taupe-charcoal text-cream-white font-semibold rounded-lg hover:bg-near-black transition-all"
+            className="inline-flex items-center justify-center px-6 py-3 bg-taupe text-cream font-semibold rounded-lg hover:bg-charcoal transition-all"
           >
             Explore Other Tools
           </Link>
