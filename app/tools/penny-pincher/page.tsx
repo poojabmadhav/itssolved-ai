@@ -4,22 +4,6 @@ import { ArrowLeft, ExternalLink, Check } from "lucide-react";
 export default function PennyPincherPage() {
   return (
     <div className="min-h-screen bg-[#B9A89B]">
-      {/* Header with CTA Button at Top */}
-      <section className="bg-[#B9A89B] sticky top-16 z-40">
-        <div className="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between gap-8">
-          <div>
-            <h1 className="text-3xl font-bold text-[#6C6661]">PennyPincher</h1>
-          </div>
-          <a
-            href="https://penny-pincher-app.vercel.app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex-shrink-0 inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#6C6661] text-[#F6F5F2] font-semibold rounded-lg hover:bg-[#221F1E] transition-all"
-          >
-            open in new window <ExternalLink className="w-4 h-4" />
-          </a>
-        </div>
-      </section>
 
       {/* Live Demo */}
       <section className="max-w-5xl mx-auto px-4 py-4 border-b border-[#6C6661] border-opacity-20">
