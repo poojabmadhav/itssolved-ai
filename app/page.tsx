@@ -40,29 +40,19 @@ export default function Home() {
                 href="https://penny-pincher-app.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group relative overflow-hidden rounded-xl bg-[#EFEBE4] border border-[#6C6661] border-opacity-20 hover:border-[#6C6661] hover:shadow-lg transition-all duration-300 hover:-translate-y-1 flex flex-col block"
+                className="group relative overflow-hidden rounded-xl bg-[#EFEBE4] border border-[#6C6661] border-opacity-20 hover:border-[#6C6661] hover:shadow-lg transition-all duration-300 hover:-translate-y-1 flex flex-col"
               >
+                <div className="bg-[#6C6661] px-6 py-4 flex items-center justify-between">
+                  <h3 className="text-2xl font-bold text-[#F6F5F2]">{tool.name}</h3>
+                  <div className="text-4xl">💰</div>
+                </div>
                 <div className="p-6 flex-1 flex flex-col">
-                  <div className="flex items-start justify-between gap-4 mb-4">
-                    <div className="flex-1">
-                      <h3 className="text-2xl font-bold text-content-primary mb-2">{tool.name}</h3>
-                    </div>
-                    <div className={`w-16 h-16 rounded-lg flex items-center justify-center text-3xl flex-shrink-0 ${tool.color}`}>
-                      {tool.id === 1 ? "🏦" : tool.id === 2 ? "🔮" : "🎯"}
-                    </div>
-                  </div>
-                  <p className="text-content-secondary mb-6 flex-1">{tool.description}</p>
+                  <p className="text-[#221F1E] mb-6 flex-1">{tool.description}</p>
                   <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-2 text-secondary font-semibold group-hover:translate-x-1 transition-transform">
+                    <div className="flex items-center gap-2 text-[#6C6661] font-semibold group-hover:translate-x-1 transition-transform">
                       Open in New Window <ExternalLink className="w-4 h-4" />
                     </div>
-                    <span
-                      className={`text-xs font-semibold px-2 py-1 rounded-full whitespace-nowrap ${
-                        tool.status === "Live"
-                          ? "bg-positive bg-opacity-10 text-positive"
-                          : "bg-gray-200 text-content-secondary"
-                      }`}
-                    >
+                    <span className="text-xs font-semibold px-2 py-1 rounded-full whitespace-nowrap bg-[#8FD14F] text-[#221F1E]">
                       {tool.status}
                     </span>
                   </div>
@@ -74,27 +64,17 @@ export default function Home() {
                 href={tool.link}
                 className="group relative overflow-hidden rounded-xl bg-[#EFEBE4] border border-[#6C6661] border-opacity-20 hover:border-[#6C6661] hover:shadow-lg transition-all duration-300 hover:-translate-y-1 flex flex-col"
               >
+                <div className="bg-[#6C6661] px-6 py-4 flex items-center justify-between">
+                  <h3 className="text-2xl font-bold text-[#F6F5F2]">{tool.name}</h3>
+                  <div className="text-4xl">{tool.id === 2 ? "🔮" : "🎯"}</div>
+                </div>
                 <div className="p-6 flex-1 flex flex-col">
-                  <div className="flex items-start justify-between gap-4 mb-4">
-                    <div className="flex-1">
-                      <h3 className="text-2xl font-bold text-content-primary mb-2">{tool.name}</h3>
-                    </div>
-                    <div className={`w-16 h-16 rounded-lg flex items-center justify-center text-3xl flex-shrink-0 ${tool.color}`}>
-                      {tool.id === 1 ? "🏦" : tool.id === 2 ? "🔮" : "🎯"}
-                    </div>
-                  </div>
-                  <p className="text-content-secondary mb-6 flex-1">{tool.description}</p>
+                  <p className="text-[#221F1E] mb-6 flex-1">{tool.description}</p>
                   <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-2 text-secondary font-semibold group-hover:translate-x-1 transition-transform">
+                    <div className="flex items-center gap-2 text-[#6C6661] font-semibold group-hover:translate-x-1 transition-transform">
                       Learn More <ArrowRight className="w-4 h-4" />
                     </div>
-                    <span
-                      className={`text-xs font-semibold px-2 py-1 rounded-full whitespace-nowrap ${
-                        tool.status === "Live"
-                          ? "bg-positive bg-opacity-10 text-positive"
-                          : "bg-gray-200 text-content-secondary"
-                      }`}
-                    >
+                    <span className="text-xs font-semibold px-2 py-1 rounded-full whitespace-nowrap bg-gray-300 text-[#221F1E]">
                       {tool.status}
                     </span>
                   </div>
