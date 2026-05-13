@@ -37,7 +37,7 @@ export default function Home() {
           {tools.map((tool) =>
             tool.id === 1 ? (
               <a
-                href="https://penny-pincher-app.vercel.app"
+                href="https://penny-pincher-eight.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group relative overflow-hidden rounded-xl bg-[#EFEBE4] border border-[#6C6661] border-opacity-20 hover:border-[#6C6661] hover:shadow-lg transition-all duration-300 hover:-translate-y-1 flex flex-col"
