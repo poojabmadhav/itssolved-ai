@@ -13,7 +13,18 @@ export default function Navbar() {
   return (
     <nav className="bg-[#000000] sticky top-0 z-50">
       <div className="max-w-full px-4 py-6 md:py-8">
-        <Link href="/" className="block mb-6">
+        <Link href="/" className="flex items-center gap-4 mb-6">
+          {/* Logo: i, t, s as power button */}
+          <svg width="48" height="48" viewBox="0 0 48 48" className="flex-shrink-0">
+            {/* Outer circle */}
+            <circle cx="24" cy="24" r="22" stroke="#FF7F11" strokeWidth="2" fill="none" />
+            {/* Top line (power button arc) */}
+            <line x1="24" y1="2" x2="24" y2="10" stroke="#FF7F11" strokeWidth="2" strokeLinecap="round" />
+            {/* i, t, s text inside circle */}
+            <text x="24" y="28" textAnchor="middle" fontSize="18" fontWeight="bold" fill="#FF7F11" fontFamily="monospace">
+              its
+            </text>
+          </svg>
           <div className="wave-text">
             {"itssolved.ai".split("").map((char, i) => (
               <span key={i}>{char === "." ? "·" : char}</span>
