@@ -24,8 +24,8 @@ export default function Navbar() {
           <Link href="/" className={`transition-colors ${isActive("/") ? "text-[#FF7F11] font-semibold" : "text-[#FFFFFC] hover:text-[#FF7F11]"}`}>
             Home
           </Link>
-          <Link href="/tools/penny-pincher" className={`transition-colors ${isActive("/tools/penny-pincher") ? "text-[#FF7F11] font-semibold" : "text-[#FFFFFC] hover:text-[#FF7F11]"}`}>
-            PennyPincher
+          <Link href="/products/penny-pincher" className={`transition-colors ${isActive("/products/penny-pincher") ? "text-[#FF7F11] font-semibold" : "text-[#FFFFFC] hover:text-[#FF7F11]"}`}>
+            Penny Pincher
           </Link>
           <Link href="/about" className={`transition-colors ${isActive("/about") ? "text-[#FF7F11] font-semibold" : "text-[#FFFFFC] hover:text-[#FF7F11]"}`}>
             About
