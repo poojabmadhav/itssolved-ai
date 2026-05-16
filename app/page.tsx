@@ -5,12 +5,12 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[#FFFFFC]">
       {/* Hero Section */}
-      <section className="bg-[#000000] px-4 py-20 md:py-32">
+      <section className="bg-[#000000] px-4 py-12 md:py-16">
         <div className="max-w-6xl mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-bold text-[#FFFFFC] mb-6">
+          <h1 className="text-3xl md:text-5xl font-bold text-[#FFFFFC] mb-3">
             We solved mundane.<br />You launch legendary.
           </h1>
-          <p className="text-lg md:text-xl text-[#BEB7A4] max-w-2xl mx-auto">
+          <p className="text-base md:text-lg text-[#BEB7A4] max-w-2xl mx-auto">
             Privacy-first tools designed for people who refuse to compromise.
           </p>
         </div>
