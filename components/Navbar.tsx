@@ -64,19 +64,16 @@ export default function Navbar() {
 
           {/* Menu - Right aligned */}
           <div className="flex gap-6 items-center flex-wrap justify-end">
-            <Link href="/" className={`transition-colors text-sm font-medium ${isActive("/") ? "text-[#FF3F00] font-bold" : "text-[#000000] hover:text-[#FF7F11]"}`}>
+            <Link href="/" className={`transition-colors text-sm font-medium ${isActive("/") ? "text-[#156064] font-bold" : "text-[#156064] hover:text-[#00C49A]"}`}>
               Home
             </Link>
-            <Link href="/products/penny-pincher" className={`transition-colors text-sm font-medium ${isActive("/products/penny-pincher") ? "text-[#FF3F00] font-bold" : "text-[#000000] hover:text-[#FF7F11]"}`}>
-              Penny Pincher
-            </Link>
-            <Link href="/about" className={`transition-colors text-sm font-medium ${isActive("/about") ? "text-[#FF3F00] font-bold" : "text-[#000000] hover:text-[#FF7F11]"}`}>
+            <Link href="/about" className={`transition-colors text-sm font-medium ${isActive("/about") ? "text-[#156064] font-bold" : "text-[#156064] hover:text-[#00C49A]"}`}>
               About
             </Link>
-            <a href="mailto:hello@itssolved.ai" className="transition-colors text-sm font-medium text-[#000000] hover:text-[#FF7F11]">
+            <a href="mailto:hello@itssolved.ai" className="transition-colors text-sm font-medium text-[#156064] hover:text-[#00C49A]">
               Ask for more
             </a>
-            <a href="mailto:hello@itssolved.ai?subject=I%20have%20something%20mundane%20to%20solve" className="transition-colors text-sm font-medium text-[#000000] hover:text-[#FF7F11]">
+            <a href="mailto:hello@itssolved.ai?subject=I%20have%20something%20mundane%20to%20solve" className="transition-colors text-sm font-medium text-[#156064] hover:text-[#00C49A]">
               Share your mundane
             </a>
           </div>
