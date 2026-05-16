@@ -20,13 +20,22 @@ export default function Navbar() {
             ))}
           </div>
         </Link>
-        <div className="flex gap-8">
+        <div className="flex gap-8 flex-wrap">
           <Link href="/" className={`transition-colors ${isActive("/") ? "text-[#FF7F11] font-semibold" : "text-[#FFFFFC] hover:text-[#FF7F11]"}`}>
             Home
           </Link>
           <Link href="/tools/penny-pincher" className={`transition-colors ${isActive("/tools/penny-pincher") ? "text-[#FF7F11] font-semibold" : "text-[#FFFFFC] hover:text-[#FF7F11]"}`}>
             PennyPincher
           </Link>
+          <Link href="/about" className={`transition-colors ${isActive("/about") ? "text-[#FF7F11] font-semibold" : "text-[#FFFFFC] hover:text-[#FF7F11]"}`}>
+            About
+          </Link>
+          <a href="mailto:hello@itssolved.ai" className="transition-colors text-[#FFFFFC] hover:text-[#FF7F11]">
+            Ask for more
+          </a>
+          <a href="mailto:hello@itssolved.ai?subject=I%20have%20something%20mundane%20to%20solve" className="transition-colors text-[#FFFFFC] hover:text-[#FF7F11]">
+            Share your mundane
+          </a>
         </div>
       </div>
     </nav>
