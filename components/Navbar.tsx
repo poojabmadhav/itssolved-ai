@@ -11,26 +11,29 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-[#BEB7A4] sticky top-0 z-50">
+    <nav className="bg-[#00C49A] sticky top-0 z-50">
       <div className="max-w-full px-4 py-4">
         <div className="flex items-center justify-between gap-8">
           {/* Logo + Brand */}
           <Link href="/" className="flex items-center gap-3 flex-shrink-0">
-            {/* Logo: Mobius ribbon forming S */}
-            <svg width="40" height="40" viewBox="0 0 48 48" className="flex-shrink-0">
-              {/* Mobius strip S shape - continuous ribbon */}
-              <defs>
-                <linearGradient id="mobius-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stopColor="#FF7F11" />
-                  <stop offset="100%" stopColor="#FF3F00" />
-                </linearGradient>
-              </defs>
-              {/* Top curve of S */}
-              <path d="M 12 14 Q 24 6, 36 14" stroke="url(#mobius-gradient)" strokeWidth="3" fill="none" strokeLinecap="round" strokeLinejoin="round" />
-              {/* Middle twist (Mobius effect) */}
-              <path d="M 36 14 Q 40 24, 12 34" stroke="url(#mobius-gradient)" strokeWidth="3" fill="none" strokeLinecap="round" strokeLinejoin="round" opacity="0.7" />
-              {/* Bottom curve of S */}
-              <path d="M 12 34 Q 24 42, 36 34" stroke="url(#mobius-gradient)" strokeWidth="3" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+            {/* Logo: Gear with checkmark */}
+            <svg width="44" height="44" viewBox="0 0 120 120" className="flex-shrink-0">
+              {/* Outer circle dashes */}
+              <circle cx="60" cy="60" r="48" fill="none" stroke="#5A9F8C" strokeWidth="3" strokeDasharray="8,6" opacity="0.8" />
+
+              {/* Gear background */}
+              <g id="gear">
+                {/* Gear teeth */}
+                <path d="M 60 15 L 70 25 L 72 15 L 82 22 L 77 28 L 85 35 L 73 38 L 78 48 L 65 45 L 68 58 L 60 58 L 62 45 L 49 48 L 54 38 L 42 35 L 50 28 L 45 22 L 55 15 L 57 25 Z" fill="#5A9F8C" />
+
+                {/* Center circle */}
+                <circle cx="60" cy="60" r="28" fill="white" stroke="#5A9F8C" strokeWidth="2" />
+
+                {/* Checkmark inside */}
+                <g transform="translate(60, 60)">
+                  <polyline points="-8,0 -2,6 10,-8" fill="none" stroke="#5A9F8C" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
+                </g>
+              </g>
             </svg>
             {/* Wavy text - smaller */}
             <style>{`
