@@ -16,16 +16,21 @@ export default function Navbar() {
         <div className="flex items-center justify-between gap-8">
           {/* Logo + Brand */}
           <Link href="/" className="flex items-center gap-3 flex-shrink-0">
-            {/* Logo: i, t, s as power button */}
+            {/* Logo: Mobius ribbon forming S */}
             <svg width="40" height="40" viewBox="0 0 48 48" className="flex-shrink-0">
-              {/* Outer circle */}
-              <circle cx="24" cy="24" r="22" stroke="#FF3F00" strokeWidth="2" fill="none" />
-              {/* Top line (power button arc) */}
-              <line x1="24" y1="2" x2="24" y2="10" stroke="#FF3F00" strokeWidth="2" strokeLinecap="round" />
-              {/* i, t, s text inside circle */}
-              <text x="24" y="28" textAnchor="middle" fontSize="16" fontWeight="bold" fill="#FF3F00" fontFamily="monospace">
-                its
-              </text>
+              {/* Mobius strip S shape - continuous ribbon */}
+              <defs>
+                <linearGradient id="mobius-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stopColor="#FF7F11" />
+                  <stop offset="100%" stopColor="#FF3F00" />
+                </linearGradient>
+              </defs>
+              {/* Top curve of S */}
+              <path d="M 12 14 Q 24 6, 36 14" stroke="url(#mobius-gradient)" strokeWidth="3" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+              {/* Middle twist (Mobius effect) */}
+              <path d="M 36 14 Q 40 24, 12 34" stroke="url(#mobius-gradient)" strokeWidth="3" fill="none" strokeLinecap="round" strokeLinejoin="round" opacity="0.7" />
+              {/* Bottom curve of S */}
+              <path d="M 12 34 Q 24 42, 36 34" stroke="url(#mobius-gradient)" strokeWidth="3" fill="none" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
             {/* Wavy text - smaller */}
             <style>{`
