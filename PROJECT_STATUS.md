@@ -2,8 +2,8 @@
 
 **Owner:** Pooja  
 **Domain:** itssolved.ai  
-**Launch Target:** May 2026 (This month)  
-**Status:** Phase 1 - Setup & Architecture  
+**Live URL:** https://itssolved.ai/  
+**Status:** ✅ LIVE (May 14, 2026)  
 
 ---
 

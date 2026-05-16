@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  @apply bg-white;
+  @apply bg-[#F3F4F6];
 }
 
 /* Smooth transitions */
@@ -16,11 +16,11 @@ a {
 
 /* Selection */
 ::selection {
-  background-color: #9FE870;
-  color: #163300;
+  background-color: #F97316;
+  color: #FFFFFF;
 }
 
 ::-moz-selection {
-  background-color: #9FE870;
-  color: #163300;
+  background-color: #F97316;
+  color: #FFFFFF;
 }

@@ -509,3 +509,1194 @@ Import trace:
  GET /tools/penny-pincher 200 in 25ms (next.js: 4ms, application-code: 21ms)
  GET / 200 in 19ms (next.js: 1196µs, application-code: 17ms)
  GET /tools/penny-pincher 200 in 19ms (next.js: 8ms, application-code: 11ms)
+✓ Compiled in 12ms
+[browser] ./app/page.tsx:38:18
+Expected a semicolon
+  36 |         <div className="grid md:grid-cols-3 gap-6">
+  37 |           {tools.map((tool) => (
+> 38 |             {tool.id === 1 ? (
+     |                  ^
+  39 |               <a
+  40 |                 href="https://penny-pincher-app.vercel.app"
+  41 |                 target="_blank"
+
+Parsing ecmascript source code failed 
+    at handleErrors (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13851:21)
+    at processMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13914:21)
+    at WebSocket.handleMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13358:52) (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13851:21)
+[browser] ./app/page.tsx:38:18
+Expected a semicolon
+  36 |         <div className="grid md:grid-cols-3 gap-6">
+  37 |           {tools.map((tool) => (
+> 38 |             {tool.id === 1 ? (
+     |                  ^
+  39 |               <a
+  40 |                 href="https://penny-pincher-app.vercel.app"
+  41 |                 target="_blank"
+
+Parsing ecmascript source code failed 
+    at handleErrors (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13851:21)
+    at processMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13914:21)
+    at WebSocket.handleMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13358:52) (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13851:21)
+⨯ ./app/page.tsx:38:18
+Expected a semicolon
+  [90m36 |[0m         <div className=[32m"grid md:grid-cols-3 gap-6"[0m>
+  [90m37 |[0m           {tools.map((tool) => (
+[31m[1m>[0m [90m38 |[0m             {tool.id === [35m1[0m ? (
+  [90m   |[0m                  [31m[1m^[0m
+  [90m39 |[0m               <a
+  [90m40 |[0m                 href=[32m"https://penny-pincher-app.vercel.app"[0m
+  [90m41 |[0m                 target=[32m"_blank"[0m
+
+Parsing ecmascript source code failed
+
+
+ GET /tools/penny-pincher 500 in 16ms (next.js: 5ms, application-code: 11ms)
+ GET / 500 in 16ms (next.js: 13ms, application-code: 3ms)
+⨯ ./app/page.tsx:38:18
+Expected a semicolon
+  [90m36 |[0m         <div className=[32m"grid md:grid-cols-3 gap-6"[0m>
+  [90m37 |[0m           {tools.map((tool) => (
+[31m[1m>[0m [90m38 |[0m             {tool.id === [35m1[0m ? (
+  [90m   |[0m                  [31m[1m^[0m
+  [90m39 |[0m               <a
+  [90m40 |[0m                 href=[32m"https://penny-pincher-app.vercel.app"[0m
+  [90m41 |[0m                 target=[32m"_blank"[0m
+
+Parsing ecmascript source code failed
+
+
+ GET /tools/penny-pincher 500 in 9ms (next.js: 3ms, application-code: 6ms)
+ GET / 500 in 10ms (next.js: 6ms, application-code: 4ms)
+⨯ ./app/page.tsx:38:18
+Expected a semicolon
+  [90m36 |[0m         <div className=[32m"grid md:grid-cols-3 gap-6"[0m>
+  [90m37 |[0m           {tools.map((tool) => (
+[31m[1m>[0m [90m38 |[0m             {tool.id === [35m1[0m ? (
+  [90m   |[0m                  [31m[1m^[0m
+  [90m39 |[0m               <a
+  [90m40 |[0m                 href=[32m"https://penny-pincher-app.vercel.app"[0m
+  [90m41 |[0m                 target=[32m"_blank"[0m
+
+Parsing ecmascript source code failed
+
+
+ GET /tools/penny-pincher 500 in 8ms (next.js: 6ms, application-code: 3ms)
+ GET / 500 in 9ms (next.js: 4ms, application-code: 5ms)
+[browser] Uncaught Error: ./app/page.tsx:38:18
+Expected a semicolon
+  36 |         <div className="grid md:grid-cols-3 gap-6">
+  37 |           {tools.map((tool) => (
+> 38 |             {tool.id === 1 ? (
+     |                  ^
+  39 |               <a
+  40 |                 href="https://penny-pincher-app.vercel.app"
+  41 |                 target="_blank"
+
+Parsing ecmascript source code failed
+
+
+    at <unknown> (Error: ./app/page.tsx:38:18)
+    at <unknown> (Error: (./app/page.tsx:38:18)
+[browser] Uncaught Error: ./app/page.tsx:38:18
+Expected a semicolon
+  36 |         <div className="grid md:grid-cols-3 gap-6">
+  37 |           {tools.map((tool) => (
+> 38 |             {tool.id === 1 ? (
+     |                  ^
+  39 |               <a
+  40 |                 href="https://penny-pincher-app.vercel.app"
+  41 |                 target="_blank"
+
+Parsing ecmascript source code failed
+
+
+    at <unknown> (Error: ./app/page.tsx:38:18)
+    at <unknown> (Error: (./app/page.tsx:38:18)
+[browser] ./app/page.tsx:38:18
+Expected a semicolon
+  36 |         <div className="grid md:grid-cols-3 gap-6">
+  37 |           {tools.map((tool) => (
+> 38 |             {tool.id === 1 ? (
+     |                  ^
+  39 |               <a
+  40 |                 href="https://penny-pincher-app.vercel.app"
+  41 |                 target="_blank"
+
+Parsing ecmascript source code failed 
+    at handleErrors (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+    at processMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2835:28)
+    at <unknown> (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2680:13)
+    at WebSocket.handleMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2325:17) (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+[browser] ./app/page.tsx:38:18
+Expected a semicolon
+  36 |         <div className="grid md:grid-cols-3 gap-6">
+  37 |           {tools.map((tool) => (
+> 38 |             {tool.id === 1 ? (
+     |                  ^
+  39 |               <a
+  40 |                 href="https://penny-pincher-app.vercel.app"
+  41 |                 target="_blank"
+
+Parsing ecmascript source code failed 
+    at handleErrors (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+    at processMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2835:28)
+    at <unknown> (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2680:13)
+    at WebSocket.handleMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2325:17) (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+⨯ ./app/page.tsx:103:14
+Expected '</', got '}'
+  [90m101 |[0m                 </div>
+  [90m102 |[0m               </[33mLink[0m>
+[31m[1m>[0m [90m103 |[0m             )}
+  [90m    |[0m              [31m[1m^[0m
+  [90m104 |[0m           ))}
+  [90m105 |[0m         </div>
+  [90m106 |[0m       </section>
+
+Parsing ecmascript source code failed
+
+
+ GET /tools/penny-pincher 500 in 8ms (next.js: 1766µs, application-code: 6ms)
+ GET / 500 in 12ms (next.js: 8ms, application-code: 4ms)
+[browser] Uncaught Error: ./app/page.tsx:103:14
+Expected '</', got '}'
+  101 |                 </div>
+  102 |               </Link>
+> 103 |             )}
+      |              ^
+  104 |           ))}
+  105 |         </div>
+  106 |       </section>
+
+Parsing ecmascript source code failed
+
+
+    at <unknown> (Error: ./app/page.tsx:103:14)
+    at <unknown> (Error: (./app/page.tsx:103:14)
+[browser] ./app/page.tsx:103:14
+Expected '</', got '}'
+  101 |                 </div>
+  102 |               </Link>
+> 103 |             )}
+      |              ^
+  104 |           ))}
+  105 |         </div>
+  106 |       </section>
+
+Parsing ecmascript source code failed 
+    at handleErrors (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+    at processMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2835:28)
+    at <unknown> (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2680:13)
+    at WebSocket.handleMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2325:17) (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+[browser] Uncaught Error: ./app/page.tsx:103:14
+Expected '</', got '}'
+  101 |                 </div>
+  102 |               </Link>
+> 103 |             )}
+      |              ^
+  104 |           ))}
+  105 |         </div>
+  106 |       </section>
+
+Parsing ecmascript source code failed
+
+
+    at <unknown> (Error: ./app/page.tsx:103:14)
+    at <unknown> (Error: (./app/page.tsx:103:14)
+[browser] ./app/page.tsx:103:14
+Expected '</', got '}'
+  101 |                 </div>
+  102 |               </Link>
+> 103 |             )}
+      |              ^
+  104 |           ))}
+  105 |         </div>
+  106 |       </section>
+
+Parsing ecmascript source code failed 
+    at handleErrors (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+    at processMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2835:28)
+    at <unknown> (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2680:13)
+    at WebSocket.handleMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2325:17) (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+⨯ ./app/page.tsx:105:13
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  [90m103 |[0m             )
+  [90m104 |[0m           )}
+[31m[1m>[0m [90m105 |[0m           ))}
+  [90m    |[0m             [31m[1m^[0m
+  [90m106 |[0m         </div>
+  [90m107 |[0m       </section>
+  [90m108 |[0m     </div>
+
+Parsing ecmascript source code failed
+
+
+ GET /tools/penny-pincher 500 in 7ms (next.js: 3ms, application-code: 4ms)
+ GET / 500 in 12ms (next.js: 7ms, application-code: 4ms)
+[browser] Uncaught Error: ./app/page.tsx:105:13
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  103 |             )
+  104 |           )}
+> 105 |           ))}
+      |             ^
+  106 |         </div>
+  107 |       </section>
+  108 |     </div>
+
+Parsing ecmascript source code failed
+
+
+    at <unknown> (Error: ./app/page.tsx:105:13)
+    at <unknown> (Error: (./app/page.tsx:105:13)
+[browser] ./app/page.tsx:105:13
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  103 |             )
+  104 |           )}
+> 105 |           ))}
+      |             ^
+  106 |         </div>
+  107 |       </section>
+  108 |     </div>
+
+Parsing ecmascript source code failed 
+    at handleErrors (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+    at processMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2835:28)
+    at <unknown> (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2680:13)
+    at WebSocket.handleMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2325:17) (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+[browser] Uncaught Error: ./app/page.tsx:105:13
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  103 |             )
+  104 |           )}
+> 105 |           ))}
+      |             ^
+  106 |         </div>
+  107 |       </section>
+  108 |     </div>
+
+Parsing ecmascript source code failed
+
+
+    at <unknown> (Error: ./app/page.tsx:105:13)
+    at <unknown> (Error: (./app/page.tsx:105:13)
+[browser] ./app/page.tsx:105:13
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  103 |             )
+  104 |           )}
+> 105 |           ))}
+      |             ^
+  106 |         </div>
+  107 |       </section>
+  108 |     </div>
+
+Parsing ecmascript source code failed 
+    at handleErrors (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+    at processMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2835:28)
+    at <unknown> (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2680:13)
+    at WebSocket.handleMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2325:17) (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+ GET /tools/penny-pincher 500 in 14ms (next.js: 5ms, application-code: 9ms)
+[browser] Uncaught Error: ./app/page.tsx:105:13
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  103 |             )
+  104 |           )}
+> 105 |           ))}
+      |             ^
+  106 |         </div>
+  107 |       </section>
+  108 |     </div>
+
+Parsing ecmascript source code failed
+
+
+    at <unknown> (Error: ./app/page.tsx:105:13)
+    at <unknown> (Error: (./app/page.tsx:105:13)
+[browser] ./app/page.tsx:105:13
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  103 |             )
+  104 |           )}
+> 105 |           ))}
+      |             ^
+  106 |         </div>
+  107 |       </section>
+  108 |     </div>
+
+Parsing ecmascript source code failed 
+    at handleErrors (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+    at processMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2835:28)
+    at <unknown> (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2680:13)
+    at WebSocket.handleMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2325:17) (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+[browser] ./app/page.tsx:105:13
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  103 |             )
+  104 |           )}
+> 105 |           ))}
+      |             ^
+  106 |         </div>
+  107 |       </section>
+  108 |     </div>
+
+Parsing ecmascript source code failed 
+    at handleErrors (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+    at processMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2835:28)
+    at <unknown> (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2680:13)
+    at WebSocket.handleMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2325:17) (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+[browser] ./app/page.tsx:105:13
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  103 |             )
+  104 |           )}
+> 105 |           ))}
+      |             ^
+  106 |         </div>
+  107 |       </section>
+  108 |     </div>
+
+Parsing ecmascript source code failed 
+    at handleErrors (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+    at processMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2835:28)
+    at <unknown> (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2680:13)
+    at WebSocket.handleMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2325:17) (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+ GET /tools/penny-pincher 500 in 15ms (next.js: 7ms, application-code: 8ms)
+[browser] Uncaught Error: ./app/page.tsx:105:13
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  103 |             )
+  104 |           )}
+> 105 |           ))}
+      |             ^
+  106 |         </div>
+  107 |       </section>
+  108 |     </div>
+
+Parsing ecmascript source code failed
+
+
+    at <unknown> (Error: ./app/page.tsx:105:13)
+    at <unknown> (Error: (./app/page.tsx:105:13)
+[browser] ./app/page.tsx:105:13
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  103 |             )
+  104 |           )}
+> 105 |           ))}
+      |             ^
+  106 |         </div>
+  107 |       </section>
+  108 |     </div>
+
+Parsing ecmascript source code failed 
+    at handleErrors (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+    at processMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2835:28)
+    at <unknown> (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2680:13)
+    at WebSocket.handleMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2325:17) (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+[browser] ./app/page.tsx:105:13
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  103 |             )
+  104 |           )}
+> 105 |           ))}
+      |             ^
+  106 |         </div>
+  107 |       </section>
+  108 |     </div>
+
+Parsing ecmascript source code failed 
+    at handleErrors (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+    at processMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2835:28)
+    at <unknown> (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2680:13)
+    at WebSocket.handleMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2325:17) (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+[browser] ./app/page.tsx:105:13
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  103 |             )
+  104 |           )}
+> 105 |           ))}
+      |             ^
+  106 |         </div>
+  107 |       </section>
+  108 |     </div>
+
+Parsing ecmascript source code failed 
+    at handleErrors (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+    at processMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2835:28)
+    at <unknown> (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2680:13)
+    at WebSocket.handleMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2325:17) (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+ GET /tools/penny-pincher 500 in 14ms (next.js: 6ms, application-code: 8ms)
+[browser] Uncaught Error: ./app/page.tsx:105:13
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  103 |             )
+  104 |           )}
+> 105 |           ))}
+      |             ^
+  106 |         </div>
+  107 |       </section>
+  108 |     </div>
+
+Parsing ecmascript source code failed
+
+
+    at <unknown> (Error: ./app/page.tsx:105:13)
+    at <unknown> (Error: (./app/page.tsx:105:13)
+[browser] ./app/page.tsx:105:13
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  103 |             )
+  104 |           )}
+> 105 |           ))}
+      |             ^
+  106 |         </div>
+  107 |       </section>
+  108 |     </div>
+
+Parsing ecmascript source code failed 
+    at handleErrors (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+    at processMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2835:28)
+    at <unknown> (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2680:13)
+    at WebSocket.handleMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2325:17) (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+[browser] ./app/page.tsx:105:13
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  103 |             )
+  104 |           )}
+> 105 |           ))}
+      |             ^
+  106 |         </div>
+  107 |       </section>
+  108 |     </div>
+
+Parsing ecmascript source code failed 
+    at handleErrors (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+    at processMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2835:28)
+    at <unknown> (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2680:13)
+    at WebSocket.handleMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2325:17) (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+[browser] ./app/page.tsx:105:13
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  103 |             )
+  104 |           )}
+> 105 |           ))}
+      |             ^
+  106 |         </div>
+  107 |       </section>
+  108 |     </div>
+
+Parsing ecmascript source code failed 
+    at handleErrors (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+    at processMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2835:28)
+    at <unknown> (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2680:13)
+    at WebSocket.handleMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2325:17) (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+⨯ ./app/page.tsx:105:13
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  [90m103 |[0m             )
+  [90m104 |[0m           )}
+[31m[1m>[0m [90m105 |[0m           ))}
+  [90m    |[0m             [31m[1m^[0m
+  [90m106 |[0m         </div>
+  [90m107 |[0m       </section>
+  [90m108 |[0m     </div>
+
+Parsing ecmascript source code failed
+
+
+ GET / 500 in 13ms (next.js: 7ms, application-code: 6ms)
+[browser] Uncaught Error: ./app/page.tsx:105:13
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  103 |             )
+  104 |           )}
+> 105 |           ))}
+      |             ^
+  106 |         </div>
+  107 |       </section>
+  108 |     </div>
+
+Parsing ecmascript source code failed
+
+
+    at <unknown> (Error: ./app/page.tsx:105:13)
+    at <unknown> (Error: (./app/page.tsx:105:13)
+[browser] ./app/page.tsx:105:13
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  103 |             )
+  104 |           )}
+> 105 |           ))}
+      |             ^
+  106 |         </div>
+  107 |       </section>
+  108 |     </div>
+
+Parsing ecmascript source code failed 
+    at handleErrors (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+    at processMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2835:28)
+    at <unknown> (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2680:13)
+    at WebSocket.handleMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2325:17) (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+[browser] ./app/page.tsx:105:13
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  103 |             )
+  104 |           )}
+> 105 |           ))}
+      |             ^
+  106 |         </div>
+  107 |       </section>
+  108 |     </div>
+
+Parsing ecmascript source code failed 
+    at handleErrors (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+    at processMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2835:28)
+    at <unknown> (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2680:13)
+    at WebSocket.handleMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2325:17) (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+⨯ ./app/page.tsx:105:13
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  [90m103 |[0m             )
+  [90m104 |[0m           )}
+[31m[1m>[0m [90m105 |[0m           ))}
+  [90m    |[0m             [31m[1m^[0m
+  [90m106 |[0m         </div>
+  [90m107 |[0m       </section>
+  [90m108 |[0m     </div>
+
+Parsing ecmascript source code failed
+
+
+ GET / 500 in 18ms (next.js: 8ms, application-code: 10ms)
+[browser] Uncaught Error: ./app/page.tsx:105:13
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  103 |             )
+  104 |           )}
+> 105 |           ))}
+      |             ^
+  106 |         </div>
+  107 |       </section>
+  108 |     </div>
+
+Parsing ecmascript source code failed
+
+
+    at <unknown> (Error: ./app/page.tsx:105:13)
+    at <unknown> (Error: (./app/page.tsx:105:13)
+[browser] ./app/page.tsx:105:13
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  103 |             )
+  104 |           )}
+> 105 |           ))}
+      |             ^
+  106 |         </div>
+  107 |       </section>
+  108 |     </div>
+
+Parsing ecmascript source code failed 
+    at handleErrors (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+    at processMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2835:28)
+    at <unknown> (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2680:13)
+    at WebSocket.handleMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2325:17) (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+[browser] ./app/page.tsx:105:13
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  103 |             )
+  104 |           )}
+> 105 |           ))}
+      |             ^
+  106 |         </div>
+  107 |       </section>
+  108 |     </div>
+
+Parsing ecmascript source code failed 
+    at handleErrors (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+    at processMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2835:28)
+    at <unknown> (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2680:13)
+    at WebSocket.handleMessage (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2325:17) (file:///Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2774:21)
+⨯ ./node_modules/next/dist/esm/build/templates/pages.js:2:1
+Module not found: Can't resolve 'next/dist/esm/server/route-kind'
+Import map: aliased to module 'next' with subpath '/dist/esm/server/route-kind' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/esm/build/templates/pages.js:2:1
+Module not found: Can't resolve 'next/dist/esm/server/route-kind'
+Import map: aliased to module 'next' with subpath '/dist/esm/server/route-kind' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/esm/build/templates/pages.js:1:1
+Module not found: Can't resolve 'next/dist/esm/server/route-modules/pages/module.compiled'
+Import map: aliased to module 'next' with subpath '/dist/esm/server/route-modules/pages/module.compiled' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/esm/build/templates/pages.js:1:1
+Module not found: Can't resolve 'next/dist/esm/server/route-modules/pages/module.compiled'
+Import map: aliased to module 'next' with subpath '/dist/esm/server/route-modules/pages/module.compiled' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/esm/build/templates/pages.js:9:1
+Module not found: Can't resolve 'next/dist/esm/server/route-modules/pages/pages-handler'
+Import map: aliased to module 'next' with subpath '/dist/esm/server/route-modules/pages/pages-handler' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/esm/build/templates/pages.js:9:1
+Module not found: Can't resolve 'next/dist/esm/server/route-modules/pages/pages-handler'
+Import map: aliased to module 'next' with subpath '/dist/esm/server/route-modules/pages/pages-handler' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+-----
+[1m[31mFATAL[39m[0m: An unexpected Turbopack error occurred. A panic log has been written to /var/folders/h0/cxt_yb5j2xsbb5qqjwdqnw000000gn/T/next-panic-474b234e5f4e20499bc62ceef3c69e01.log.
+
+To help make Turbopack better, report this error by clicking here: https://bugs.nextjs.org/search?category=turbopack-error-report&title=Turbopack%20Error%3A%20Expected%20file%20content%20for%20file&body=Turbopack%20version%3A%20%60ee6e79b1%60%0ANext.js%20version%3A%20%600.0.0%60%0A%0AError%20message%3A%0A%60%60%60%0AExpected%20file%20content%20for%20file%0A%0ADebug%20info%3A%0A-%20Execution%20of%20subscribe_issues_and_diags_operation%20failed%0A-%20Execution%20of%20%3CPageEndpoint%20as%20Endpoint%3E%3A%3Aserver_changed%20failed%0A-%20Execution%20of%20%2AProject%3A%3Aserver_changed%20failed%0A-%20Execution%20of%20%2APageEndpointOutput%3A%3Aserver_assets%20failed%0A-%20Execution%20of%20PageEndpoint%3A%3Aoutput%20failed%0A-%20Execution%20of%20PageEndpoint%3A%3Ainternal_ssr_chunk%20failed%0A-%20Execution%20of%20PageEndpoint%3A%3Ainternal_ssr_chunk_module%20failed%0A-%20Execution%20of%20create_page_ssr_entry_module%20failed%0A-%20Execution%20of%20file_content_rope%20failed%0A-%20Expected%20file%20content%20for%20file%0A%60%60%60&labels=Turbopack,Turbopack%20Panic%20Backtrace
+-----
+
+⨯ ./app/page.tsx:105:13
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  [90m103 |[0m             )
+  [90m104 |[0m           )}
+[31m[1m>[0m [90m105 |[0m           ))}
+  [90m    |[0m             [31m[1m^[0m
+  [90m106 |[0m         </div>
+  [90m107 |[0m       </section>
+  [90m108 |[0m     </div>
+
+Parsing ecmascript source code failed
+
+
+⨯ ./app/page.tsx:105:13
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  [90m103 |[0m             )
+  [90m104 |[0m           )}
+[31m[1m>[0m [90m105 |[0m           ))}
+  [90m    |[0m             [31m[1m^[0m
+  [90m106 |[0m         </div>
+  [90m107 |[0m       </section>
+  [90m108 |[0m     </div>
+
+Parsing ecmascript source code failed
+
+
+Error [ModuleBuildError]: ./app/page.tsx:105:13
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  [90m103 |[0m             )
+  [90m104 |[0m           )}
+[31m[1m>[0m [90m105 |[0m           ))}
+  [90m    |[0m             [31m[1m^[0m
+  [90m106 |[0m         </div>
+  [90m107 |[0m       </section>
+  [90m108 |[0m     </div>
+
+Parsing ecmascript source code failed
+
+
+    at <unknown> (ModuleBuildError: ./app/page.tsx:105:13)
+Error [ModuleBuildError]: ./app/page.tsx:105:13
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  [90m103 |[0m             )
+  [90m104 |[0m           )}
+[31m[1m>[0m [90m105 |[0m           ))}
+  [90m    |[0m             [31m[1m^[0m
+  [90m106 |[0m         </div>
+  [90m107 |[0m       </section>
+  [90m108 |[0m     </div>
+
+Parsing ecmascript source code failed
+
+
+    at <unknown> (ModuleBuildError: ./app/page.tsx:105:13)
+⨯ ./node_modules/next/dist/server/route-modules/pages/vendored/contexts/html-context.js
+Module not found: Can't resolve '../../module.compiled'
+
+
+Import trace:
+  SSR:
+    ./node_modules/next/dist/server/route-modules/pages/vendored/contexts/html-context.js
+    ./node_modules/next/dist/pages/_document.js
+    ./node_modules/next/document.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/server/route-modules/pages/vendored/contexts/html-context.js
+Module not found: Can't resolve '../../module.compiled'
+
+
+Import trace:
+  SSR:
+    ./node_modules/next/dist/server/route-modules/pages/vendored/contexts/html-context.js
+    ./node_modules/next/dist/pages/_document.js
+    ./node_modules/next/document.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+✓ Compiled in 407ms
+⨯ ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:61:27
+Module not found: Can't resolve '../../../../server/dev/hot-reloader-types'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:28:27
+Module not found: Can't resolve '../../../../server/dev/hot-reloader-types'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js
+    ./node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/client/dev/hot-middleware-client.js:12:27
+Module not found: Can't resolve '../../server/dev/hot-reloader-types'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/client/page-bootstrap.js:18:27
+Module not found: Can't resolve '../server/dev/hot-reloader-types'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/client/index.js:650:32
+Module not found: Can't resolve '../server/dev/node-stack-frames'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/pages/_error.js:29:36
+Module not found: Can't resolve '../server/request-meta'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:61:27
+Module not found: Can't resolve '../../../../server/dev/hot-reloader-types'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:28:27
+Module not found: Can't resolve '../../../../server/dev/hot-reloader-types'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js
+    ./node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/client/dev/hot-middleware-client.js:12:27
+Module not found: Can't resolve '../../server/dev/hot-reloader-types'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/client/page-bootstrap.js:18:27
+Module not found: Can't resolve '../server/dev/hot-reloader-types'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/client/index.js:650:32
+Module not found: Can't resolve '../server/dev/node-stack-frames'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/pages/_error.js:29:36
+Module not found: Can't resolve '../server/request-meta'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:61:27
+Module not found: Can't resolve '../../../../server/dev/hot-reloader-types'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:28:27
+Module not found: Can't resolve '../../../../server/dev/hot-reloader-types'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js
+    ./node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/client/dev/hot-middleware-client.js:12:27
+Module not found: Can't resolve '../../server/dev/hot-reloader-types'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/client/page-bootstrap.js:18:27
+Module not found: Can't resolve '../server/dev/hot-reloader-types'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/client/index.js:650:32
+Module not found: Can't resolve '../server/dev/node-stack-frames'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:61:27
+Module not found: Can't resolve '../../../../server/dev/hot-reloader-types'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:28:27
+Module not found: Can't resolve '../../../../server/dev/hot-reloader-types'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js
+    ./node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/client/dev/hot-middleware-client.js:12:27
+Module not found: Can't resolve '../../server/dev/hot-reloader-types'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/client/page-bootstrap.js:18:27
+Module not found: Can't resolve '../server/dev/hot-reloader-types'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/client/index.js:650:32
+Module not found: Can't resolve '../server/dev/node-stack-frames'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:105:13
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  [90m103 |[0m             )
+  [90m104 |[0m           )}
+[31m[1m>[0m [90m105 |[0m           ))}
+  [90m    |[0m             [31m[1m^[0m
+  [90m106 |[0m         </div>
+  [90m107 |[0m       </section>
+  [90m108 |[0m     </div>
+
+Parsing ecmascript source code failed
+
+
+⨯ ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:61:27
+Module not found: Can't resolve '../../../../server/dev/hot-reloader-types'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:28:27
+Module not found: Can't resolve '../../../../server/dev/hot-reloader-types'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js
+    ./node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/client/dev/hot-middleware-client.js:12:27
+Module not found: Can't resolve '../../server/dev/hot-reloader-types'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/client/page-bootstrap.js:18:27
+Module not found: Can't resolve '../server/dev/hot-reloader-types'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/client/index.js:650:32
+Module not found: Can't resolve '../server/dev/node-stack-frames'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/server/route-modules/pages/vendored/contexts/html-context.js
+Module not found: Can't resolve '../../module.compiled'
+
+
+Import trace:
+  SSR:
+    ./node_modules/next/dist/server/route-modules/pages/vendored/contexts/html-context.js
+    ./node_modules/next/dist/pages/_document.js
+    ./node_modules/next/document.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/pages/_document.js:42:23
+Module not found: Can't resolve '../server/get-page-files'
+
+
+Import trace:
+  SSR:
+    ./node_modules/next/dist/pages/_document.js
+    ./node_modules/next/document.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/pages/_document.js:47:17
+Module not found: Can't resolve '../server/lib/trace/tracer'
+
+
+Import trace:
+  SSR:
+    ./node_modules/next/dist/pages/_document.js
+    ./node_modules/next/document.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/pages/_document.js:48:16
+Module not found: Can't resolve '../server/lib/trace/utils'
+
+
+Import trace:
+  SSR:
+    ./node_modules/next/dist/pages/_document.js
+    ./node_modules/next/document.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:61:27
+Module not found: Can't resolve '../../../../server/dev/hot-reloader-types'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:28:27
+Module not found: Can't resolve '../../../../server/dev/hot-reloader-types'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js
+    ./node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/client/dev/hot-middleware-client.js:12:27
+Module not found: Can't resolve '../../server/dev/hot-reloader-types'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/client/page-bootstrap.js:18:27
+Module not found: Can't resolve '../server/dev/hot-reloader-types'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/client/index.js:650:32
+Module not found: Can't resolve '../server/dev/node-stack-frames'
+
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/next/dist/pages/_error.js:29:36
+Module not found: Can't resolve '../server/request-meta'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET / 500 in 9ms (next.js: 6ms, application-code: 4ms)
+✓ Compiled in 137ms
+✓ Compiled in 59ms
+✓ Compiled in 7ms
+✓ Compiled in 41ms
+Error: Turbopack build failed with 1 errors:
+./app
+Error: Next.js inferred your workspace root, but it may not be correct.
+    We couldn't find the Next.js package (next/package.json) from the project directory: /Users/pooja/Documents/SecondBrain/Projects/Portfolio Website - itssolved.ai/app
+     To fix this, set turbopack.root in your Next.js config, or ensure the Next.js package is resolvable from this directory.
+    Note: For security and performance reasons, files outside of the project directory will not be compiled.
+    See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+
+    at ignore-listed frames
+[?25h

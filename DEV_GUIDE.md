@@ -54,7 +54,7 @@ Public assets in: public/
 1. **Overview** - What is it, key principles
 2. **Features** - CSV import, categorization, visualizations, export
 3. **How It Works** - 4-step process walkthrough
-4. **Demo** - Live iframe embedding penny-pincher-app.vercel.app
+4. **Demo** - Live iframe embedding penny-pincher-eight.vercel.app
 
 ### Design
 - Color palette: #8A5F41, #A77F60, #F3E4C9, #CCD67F

@@ -90,12 +90,12 @@ Create `.env.local`:
 
 ```
 # No sensitive vars needed for portfolio initially
-# NEXT_PUBLIC_PENNY_PINCHER_URL=https://penny-pincher-app.vercel.app
+# NEXT_PUBLIC_PENNY_PINCHER_URL=https://penny-pincher-eight.vercel.app
 ```
 
 ## Key Decisions
 
-- **PennyPincher Embedding:** Use iframe pointing to penny-pincher-app.vercel.app OR create a dedicated page that redirects/embeds
+- **PennyPincher Embedding:** Use iframe pointing to penny-pincher-eight.vercel.app OR create a dedicated page that redirects/embeds
 - **Blog/Content:** Future phase (store in `/app/blog` if added later)
 - **Analytics:** Consider adding PostHog/Plausible later (add to layout.tsx)
 - **Sitemap:** Next.js auto-generates `/sitemap.xml` if using App Router

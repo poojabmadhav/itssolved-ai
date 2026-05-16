@@ -8,23 +8,24 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Neutral Brown Palette
-        primary: "#B9A89B",
-        secondary: "#221F1E",
-        bg: "#B9A89B",
-        ivory: "#EFEBE4",
-        taupe: "#6C6661",
-        cream: "#F6F5F2",
-        charcoal: "#221F1E",
+        // Soft Modern Palette
+        primary: "#F3F4F6",
+        bg: "#F3F4F6",
+        surface: "#FFFFFF",
+        charcoal: "#111827",
+        muted: "#6B7280",
+        accent: "#F97316",
+        cream: "#F9FAFB",
+        border: "#E5E7EB",
         // Content colors
-        "content-primary": "#221F1E",
-        "content-secondary": "#6C6661",
-        "content-tertiary": "#B9A89B",
-        "content-link": "#221F1E",
+        "content-primary": "#111827",
+        "content-secondary": "#6B7280",
+        "content-tertiary": "#9CA3AF",
+        "content-link": "#F97316",
         // Sentiment
-        negative: "#A8200D",
-        positive: "#2F5711",
-        warning: "#EDC843",
+        negative: "#EF4444",
+        positive: "#10B981",
+        warning: "#F59E0B",
       },
     },
   },
