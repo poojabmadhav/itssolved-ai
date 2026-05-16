@@ -8,24 +8,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Soft Modern Palette
-        primary: "#F3F4F6",
-        bg: "#F3F4F6",
-        surface: "#FFFFFF",
-        charcoal: "#111827",
-        muted: "#6B7280",
-        accent: "#F97316",
-        cream: "#F9FAFB",
-        border: "#E5E7EB",
-        // Content colors
-        "content-primary": "#111827",
-        "content-secondary": "#6B7280",
-        "content-tertiary": "#9CA3AF",
-        "content-link": "#F97316",
-        // Sentiment
-        negative: "#EF4444",
-        positive: "#10B981",
-        warning: "#F59E0B",
+        // Bold Dynamic Palette
+        black: "#000000",
+        offwhite: "#FFFFFC",
+        beige: "#BEB7A4",
+        orange: "#FF7F11",
+        red: "#FF3F00",
       },
     },
   },
