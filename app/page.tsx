@@ -10,9 +10,6 @@ export default function Home() {
           <h1 className="text-3xl md:text-5xl font-bold text-[#FFFFFC] mb-3">
             We solved mundane.<br />You launch legendary.
           </h1>
-          <p className="text-base md:text-lg text-[#BEB7A4] max-w-2xl mx-auto">
-            Privacy-first tools designed for people who refuse to compromise.
-          </p>
         </div>
       </section>
 
