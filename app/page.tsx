@@ -8,7 +8,7 @@ export default function Home() {
       <section className="bg-[#00C49A] px-4 py-4 md:py-6">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-xl md:text-2xl font-bold text-[#FFFFFC]">
-            We solved mundane.<br />You launch legendary.
+            We solved mundane. You launch legendary.
           </h1>
         </div>
       </section>
