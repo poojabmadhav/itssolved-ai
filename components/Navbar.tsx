@@ -49,7 +49,7 @@ export default function Navbar() {
                 display: inline-block;
                 animation: wave 1.5s ease-in-out infinite;
                 font-weight: bold;
-                font-size: 2rem;
+                font-size: 3.5rem;
               }
               .navbar-wave-text span:nth-child(odd) { color: #FF7F11; }
               .navbar-wave-text span:nth-child(even) { color: #FF3F00; }
@@ -74,17 +74,17 @@ export default function Navbar() {
           </Link>
 
           {/* Menu - Right aligned */}
-          <div className="flex gap-6 items-center flex-wrap justify-end">
-            <Link href="/" className={`transition-colors text-sm font-medium ${isActive("/") ? "text-[#156064] font-bold" : "text-[#156064] hover:text-[#00C49A]"}`}>
+          <div className="flex gap-8 items-center flex-wrap justify-end">
+            <Link href="/" className={`transition-colors text-lg font-semibold ${isActive("/") ? "text-[#156064] font-bold" : "text-[#156064] hover:text-[#00C49A]"}`}>
               Home
             </Link>
-            <Link href="/about" className={`transition-colors text-sm font-medium ${isActive("/about") ? "text-[#156064] font-bold" : "text-[#156064] hover:text-[#00C49A]"}`}>
+            <Link href="/about" className={`transition-colors text-lg font-semibold ${isActive("/about") ? "text-[#156064] font-bold" : "text-[#156064] hover:text-[#00C49A]"}`}>
               About
             </Link>
-            <a href="mailto:hello@itssolved.ai" className="transition-colors text-sm font-medium text-[#156064] hover:text-[#00C49A]">
+            <a href="mailto:hello@itssolved.ai" className="transition-colors text-lg font-semibold text-[#156064] hover:text-[#00C49A]">
               Ask for more
             </a>
-            <a href="mailto:hello@itssolved.ai?subject=I%20have%20something%20mundane%20to%20solve" className="transition-colors text-sm font-medium text-[#156064] hover:text-[#00C49A]">
+            <a href="mailto:hello@itssolved.ai?subject=I%20have%20something%20mundane%20to%20solve" className="transition-colors text-lg font-semibold text-[#156064] hover:text-[#00C49A]">
               Share your mundane
             </a>
           </div>

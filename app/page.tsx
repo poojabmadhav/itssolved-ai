@@ -5,9 +5,9 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[#FFFFFC]">
       {/* Hero Section */}
-      <section className="bg-[#00C49A] px-4 py-6 md:py-8">
+      <section className="bg-[#00C49A] px-4 py-4 md:py-6">
         <div className="max-w-6xl mx-auto text-center">
-          <h1 className="text-2xl md:text-4xl font-bold text-[#FFFFFC]">
+          <h1 className="text-xl md:text-2xl font-bold text-[#FFFFFC]">
             We solved mundane.<br />You launch legendary.
           </h1>
         </div>
