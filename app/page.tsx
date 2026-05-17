@@ -20,48 +20,75 @@ export default function Home() {
           href="/products/penny-pincher"
           className="block mb-20 hover:scale-105 transition-transform duration-300"
         >
-          <div className="bg-[#F8E16C] p-8 md:p-12 w-full md:w-3/5 rounded-none hover:shadow-2xl transition-shadow">
-            <div className="flex justify-between items-start mb-6">
-              <h2 className="text-4xl md:text-5xl font-bold text-[#000000]">Penny Pincher</h2>
-              <span className="text-3xl">💰</span>
-            </div>
-            <p className="text-lg text-[#000000] mb-6 font-semibold">
-              Track where your pennies roll while your data stays on your device.
-            </p>
-            <div className="flex justify-between items-center">
-              <div className="flex items-center gap-2 text-[#000000] font-bold hover:underline">
-                Open in New Window <ExternalLink className="w-5 h-5" />
+          <div className="bg-[#F8E16C] rounded-lg overflow-hidden w-full md:w-3/5 hover:shadow-2xl transition-shadow">
+            {/* Image */}
+            <img
+              src="https://images.unsplash.com/photo-1579621970563-430f63602d4b?w=800&q=80"
+              alt="Penny Pincher"
+              className="w-full h-64 object-cover"
+            />
+            {/* Content */}
+            <div className="p-8 md:p-12">
+              <div className="flex justify-between items-start mb-6">
+                <h2 className="text-4xl md:text-5xl font-bold text-[#000000]">Penny Pincher</h2>
+                <span className="text-3xl">💰</span>
               </div>
-              <span className="bg-[#FF3F00] text-[#FFFFFC] px-4 py-2 font-bold text-sm">LIVE</span>
+              <p className="text-lg text-[#000000] mb-6 font-semibold">
+                Track where your pennies roll while your data stays on your device.
+              </p>
+              <div className="flex justify-between items-center">
+                <div className="flex items-center gap-2 text-[#000000] font-bold hover:underline">
+                  Open in New Window <ExternalLink className="w-5 h-5" />
+                </div>
+                <span className="bg-[#FF3F00] text-[#FFFFFC] px-4 py-2 font-bold text-sm">LIVE</span>
+              </div>
             </div>
           </div>
         </Link>
 
         {/* Product 2: Coming Soon - Right block with margin */}
         <Link href="/products/product-2" className="block mb-20 ml-auto w-full md:w-2/5 hover:scale-105 transition-transform duration-300">
-          <div className="bg-[#F8E16C] p-8 md:p-12 rounded-none hover:shadow-2xl transition-shadow">
-            <div className="flex justify-between items-start mb-6">
-              <h2 className="text-4xl md:text-5xl font-bold text-[#000000]">Product 2</h2>
-              <span className="text-3xl">🔮</span>
+          <div className="bg-[#F8E16C] rounded-lg overflow-hidden hover:shadow-2xl transition-shadow">
+            {/* Image */}
+            <img
+              src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80"
+              alt="Product 2"
+              className="w-full h-64 object-cover"
+            />
+            {/* Content */}
+            <div className="p-8 md:p-12">
+              <div className="flex justify-between items-start mb-6">
+                <h2 className="text-4xl md:text-5xl font-bold text-[#000000]">Product 2</h2>
+                <span className="text-3xl">🔮</span>
+              </div>
+              <p className="text-lg text-[#000000] mb-6 font-semibold">
+                Coming soon. Something that will change how you work.
+              </p>
+              <span className="inline-block text-[#000000] font-bold text-sm">Coming Soon</span>
             </div>
-            <p className="text-lg text-[#000000] mb-6 font-semibold">
-              Coming soon. Something that will change how you work.
-            </p>
-            <span className="inline-block text-[#000000] font-bold text-sm">Coming Soon</span>
           </div>
         </Link>
 
         {/* Product 3: Coming Soon - Large left block */}
         <Link href="/products/product-3" className="block hover:scale-105 transition-transform duration-300">
-          <div className="bg-[#F8E16C] p-8 md:p-12 w-full md:w-3/5 rounded-none hover:shadow-2xl transition-shadow">
-            <div className="flex justify-between items-start mb-6">
-              <h2 className="text-4xl md:text-5xl font-bold text-[#000000]">Product 3</h2>
-              <span className="text-3xl">🎯</span>
+          <div className="bg-[#F8E16C] rounded-lg overflow-hidden w-full md:w-3/5 hover:shadow-2xl transition-shadow">
+            {/* Image */}
+            <img
+              src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80"
+              alt="Product 3"
+              className="w-full h-64 object-cover"
+            />
+            {/* Content */}
+            <div className="p-8 md:p-12">
+              <div className="flex justify-between items-start mb-6">
+                <h2 className="text-4xl md:text-5xl font-bold text-[#000000]">Product 3</h2>
+                <span className="text-3xl">🎯</span>
+              </div>
+              <p className="text-lg text-[#000000] mb-6 font-semibold">
+                Coming soon. More solutions on the way.
+              </p>
+              <span className="inline-block text-[#000000] font-bold text-sm">Coming Soon</span>
             </div>
-            <p className="text-lg text-[#000000] mb-6 font-semibold">
-              Coming soon. More solutions on the way.
-            </p>
-            <span className="inline-block text-[#000000] font-bold text-sm">Coming Soon</span>
           </div>
         </Link>
       </section>
