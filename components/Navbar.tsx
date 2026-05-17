@@ -17,23 +17,31 @@ export default function Navbar() {
           {/* Logo + Brand */}
           <Link href="/" className="flex items-center gap-3 flex-shrink-0">
             {/* Logo: Gear with checkmark */}
-            <svg width="44" height="44" viewBox="0 0 120 120" className="flex-shrink-0">
-              {/* Outer circle dashes */}
-              <circle cx="60" cy="60" r="48" fill="none" stroke="#5A9F8C" strokeWidth="3" strokeDasharray="8,6" opacity="0.8" />
+            <svg width="48" height="48" viewBox="0 0 200 200" className="flex-shrink-0">
+              {/* Outer dashed circle */}
+              <circle cx="100" cy="100" r="85" fill="none" stroke="#5FA084" strokeWidth="5" strokeDasharray="12,8" strokeLinecap="round" />
 
-              {/* Gear background */}
-              <g id="gear">
-                {/* Gear teeth */}
-                <path d="M 60 15 L 70 25 L 72 15 L 82 22 L 77 28 L 85 35 L 73 38 L 78 48 L 65 45 L 68 58 L 60 58 L 62 45 L 49 48 L 54 38 L 42 35 L 50 28 L 45 22 L 55 15 L 57 25 Z" fill="#5A9F8C" />
-
-                {/* Center circle */}
-                <circle cx="60" cy="60" r="28" fill="white" stroke="#5A9F8C" strokeWidth="2" />
-
-                {/* Checkmark inside */}
-                <g transform="translate(60, 60)">
-                  <polyline points="-8,0 -2,6 10,-8" fill="none" stroke="#5A9F8C" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
-                </g>
+              {/* Gear shape */}
+              <g fill="#5FA084">
+                {/* Top tooth */}
+                <path d="M 100 25 L 115 35 L 115 55 L 130 50 L 140 65 L 125 75 L 130 92 L 115 90 L 115 110 L 140 105 L 130 120 L 125 135 L 110 125 L 100 140 L 90 125 L 75 135 L 65 120 L 60 105 L 85 110 L 85 90 L 70 92 L 75 75 L 60 65 L 75 50 L 85 55 L 85 35 Z" />
               </g>
+
+              {/* Center white circle */}
+              <circle cx="100" cy="100" r="50" fill="white" />
+
+              {/* Checkmark */}
+              <g stroke="#5FA084" strokeWidth="8" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                <polyline points="75,105 90,120 125,80" />
+              </g>
+
+              {/* Gradient accent (bottom left of gear) */}
+              <defs>
+                <linearGradient id="gearGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stopColor="#5FA084" />
+                  <stop offset="100%" stopColor="#7CB342" />
+                </linearGradient>
+              </defs>
             </svg>
             {/* Wavy text - smaller */}
             <style>{`
