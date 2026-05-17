@@ -5,16 +5,13 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[#FFFFFC]">
       {/* Hero Section */}
-      <section className="bg-[#00C49A] px-4 py-12 md:py-16">
+      <section className="bg-[#00C49A] px-4 py-6 md:py-8">
         <div className="max-w-6xl mx-auto text-center">
-          <h1 className="text-3xl md:text-5xl font-bold text-[#FFFFFC] mb-3">
+          <h1 className="text-2xl md:text-4xl font-bold text-[#FFFFFC]">
             We solved mundane.<br />You launch legendary.
           </h1>
         </div>
       </section>
-
-      {/* Divider */}
-      <div className="h-2 bg-[#FF3F00]" />
 
       {/* Tools Section - Asymmetric Layout */}
       <section className="px-4 py-16 md:py-32 max-w-7xl mx-auto">
