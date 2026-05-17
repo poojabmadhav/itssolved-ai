@@ -41,7 +41,7 @@ export default function Navbar() {
                 display: inline-block;
                 animation: wave 1.5s ease-in-out infinite;
                 font-weight: bold;
-                font-size: 1.25rem;
+                font-size: 2rem;
               }
               .navbar-wave-text span:nth-child(odd) { color: #FF7F11; }
               .navbar-wave-text span:nth-child(even) { color: #FF3F00; }
