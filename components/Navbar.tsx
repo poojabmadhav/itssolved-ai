@@ -17,31 +17,47 @@ export default function Navbar() {
           {/* Logo + Brand */}
           <Link href="/" className="flex items-center gap-3 flex-shrink-0">
             {/* Logo: Gear with checkmark */}
-            <svg width="48" height="48" viewBox="0 0 200 200" className="flex-shrink-0">
-              {/* Outer dashed circle */}
-              <circle cx="100" cy="100" r="85" fill="none" stroke="#5FA084" strokeWidth="5" strokeDasharray="12,8" strokeLinecap="round" />
-
-              {/* Gear shape */}
-              <g fill="#5FA084">
-                {/* Top tooth */}
-                <path d="M 100 25 L 115 35 L 115 55 L 130 50 L 140 65 L 125 75 L 130 92 L 115 90 L 115 110 L 140 105 L 130 120 L 125 135 L 110 125 L 100 140 L 90 125 L 75 135 L 65 120 L 60 105 L 85 110 L 85 90 L 70 92 L 75 75 L 60 65 L 75 50 L 85 55 L 85 35 Z" />
-              </g>
-
-              {/* Center white circle */}
-              <circle cx="100" cy="100" r="50" fill="white" />
-
-              {/* Checkmark */}
-              <g stroke="#5FA084" strokeWidth="8" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                <polyline points="75,105 90,120 125,80" />
-              </g>
-
-              {/* Gradient accent (bottom left of gear) */}
+            <svg width="50" height="50" viewBox="0 0 100 100" className="flex-shrink-0">
               <defs>
-                <linearGradient id="gearGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <linearGradient id="gearGrad" x1="0%" y1="0%" x2="100%" y2="100%">
                   <stop offset="0%" stopColor="#5FA084" />
                   <stop offset="100%" stopColor="#7CB342" />
                 </linearGradient>
               </defs>
+
+              {/* Outer dashed circle */}
+              <circle cx="50" cy="50" r="42" fill="none" stroke="#5FA084" strokeWidth="2.5" strokeDasharray="5,4" strokeLinecap="round" />
+
+              {/* Gear teeth - 8 teeth */}
+              <g fill="#5FA084">
+                {/* Top tooth */}
+                <rect x="45" y="10" width="10" height="12" rx="2" />
+                {/* Top-right */}
+                <rect x="70" y="18" width="10" height="10" rx="2" transform="rotate(45 75 23)" />
+                {/* Right */}
+                <rect x="78" y="45" width="12" height="10" rx="2" />
+                {/* Bottom-right */}
+                <rect x="70" y="72" width="10" height="10" rx="2" transform="rotate(45 75 77)" />
+                {/* Bottom */}
+                <rect x="45" y="78" width="10" height="12" rx="2" />
+                {/* Bottom-left */}
+                <rect x="20" y="72" width="10" height="10" rx="2" transform="rotate(45 25 77)" />
+                {/* Left */}
+                <rect x="10" y="45" width="12" height="10" rx="2" />
+                {/* Top-left */}
+                <rect x="20" y="18" width="10" height="10" rx="2" transform="rotate(45 25 23)" />
+              </g>
+
+              {/* Center white circle */}
+              <circle cx="50" cy="50" r="28" fill="white" />
+
+              {/* Checkmark */}
+              <g stroke="#5FA084" strokeWidth="3" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                <polyline points="40,50 47,57 63,41" />
+              </g>
+
+              {/* Gradient overlay on bottom-left */}
+              <circle cx="60" cy="65" r="8" fill="url(#gearGrad)" opacity="0.6" />
             </svg>
             {/* Wavy text - smaller */}
             <style>{`
