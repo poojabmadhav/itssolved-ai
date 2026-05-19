@@ -1,29 +1,10 @@
 "use client";
 
 import { useState, useRef } from "react";
+import { Upload, CheckCircle2 } from "lucide-react";
 import Link from "next/link";
-import { ArrowLeft, Upload, CheckCircle2 } from "lucide-react";
 
 const LIMITS = { name: 30, tagline: 80, description: 200, builtBy: 40 };
-
-const REQUIREMENTS = [
-  {
-    label: "Completely free",
-    detail: "No payments, subscriptions, or hidden costs. Ever.",
-  },
-  {
-    label: "Browser-based",
-    detail: "Works directly in the browser. No downloads or installs.",
-  },
-  {
-    label: "No account needed",
-    detail: "Users get full value without creating an account.",
-  },
-  {
-    label: "No freemium trap",
-    detail: "Not a free tier that gates the real product behind a paywall.",
-  },
-];
 
 function Counter({ current, limit }: { current: number; limit: number }) {
   const remaining = limit - current;
@@ -136,42 +117,13 @@ export default function ShowcasePage() {
   return (
     <div className="bg-[#FFFFFC] flex-1">
 
-      {/* Header */}
-      <section className="bg-[#156064] px-6 md:px-10 py-14">
-        <div className="max-w-5xl mx-auto">
-          <Link href="/" className="inline-flex items-center gap-2 text-[#FFFFFC]/50 hover:text-[#FFFFFC] transition-colors text-sm mb-10">
-            <ArrowLeft className="w-4 h-4" />
-            Back
-          </Link>
-          <h1 className="text-4xl md:text-5xl font-bold text-[#F8E16C] tracking-tight mb-3">
-            Showcase Your Product
-          </h1>
-          <p className="text-[#FFFFFC]/65 font-light max-w-xl">
-            Built something that solves a real problem — completely free, in the browser, no strings attached? Submit it here to be featured alongside Penny Pincher.
-          </p>
-        </div>
-      </section>
-
-      {/* Requirements */}
-      <section className="border-b border-black/8 px-6 md:px-10 py-10">
-        <div className="max-w-5xl mx-auto">
-          <p className="text-xs tracking-[0.2em] text-[#156064] uppercase font-semibold mb-6">
-            All 4 must apply to your product
-          </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-            {REQUIREMENTS.map(({ label, detail }) => (
-              <div key={label} className="p-5 border border-[#00C49A]/25 bg-[#00C49A]/5">
-                <p className="text-sm font-bold text-[#156064] mb-2">{label}</p>
-                <p className="text-xs text-black/45 leading-relaxed">{detail}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Form + Preview */}
-      <section className="px-6 md:px-10 py-12 pb-20">
+      <section className="px-6 md:px-10 pt-10 pb-20">
         <div className="max-w-5xl mx-auto">
+          <p className="text-[#000000]/50 text-sm leading-relaxed mb-10 max-w-xl">
+            We feature tools that are <span className="text-[#156064] font-medium">completely free, browser-based, and need no account or downloads</span> — no freemium, no paywalls, no exceptions. Think yours qualifies? Fill in the details below.
+          </p>
+
           <form onSubmit={handleSubmit} noValidate>
             <div className="grid md:grid-cols-[1fr_300px] gap-12 items-start">
 
