@@ -8,12 +8,11 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Bold Dynamic Palette
-        black: "#000000",
+        teal: "#00C49A",
+        "dark-teal": "#156064",
+        yellow: "#F8E16C",
         offwhite: "#FFFFFC",
-        beige: "#BEB7A4",
-        orange: "#FF7F11",
-        red: "#FF3F00",
+        black: "#000000",
       },
     },
   },

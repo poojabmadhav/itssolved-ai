@@ -3,92 +3,98 @@ import { ArrowLeft } from "lucide-react";
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen bg-[#F3F4F6]">
-      <div className="max-w-5xl mx-auto px-4 py-16">
-        <Link
-          href="/"
-          className="inline-flex items-center gap-2 text-[#F97316] hover:text-[#111827] transition-colors mb-12"
-        >
-          <ArrowLeft className="w-4 h-4" />
-          Back to Home
-        </Link>
+    <div className="min-h-screen bg-[#FFFFFC]">
 
-        <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
-          <div>
-            <h1 className="text-5xl font-bold text-[#111827] mb-6">About itssolved.ai</h1>
-            <p className="text-xl text-[#6B7280] mb-6">
-              We build AI-powered tools designed to solve real problems. Every product we create prioritizes your
-              privacy, simplicity, and control.
-            </p>
-          </div>
-          <div className="h-80 bg-gradient-to-br from-[#F97316] to-[#FBBF24] rounded-lg" />
+      {/* Header */}
+      <section className="bg-[#156064] px-6 md:px-10 py-16">
+        <div className="max-w-4xl mx-auto">
+          <Link
+            href="/"
+            className="inline-flex items-center gap-2 text-[#FFFFFC]/50 hover:text-[#FFFFFC] transition-colors text-sm mb-10"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            Back
+          </Link>
+          <h1 className="text-4xl md:text-6xl font-bold text-[#F8E16C] tracking-tight">
+            About
+          </h1>
+          <p className="text-lg text-[#FFFFFC]/70 mt-4 max-w-xl font-light">
+            AI-powered tools built to solve real problems — with privacy and simplicity at the core.
+          </p>
         </div>
+      </section>
 
-        <section className="mb-16 border-t border-[#E5E7EB] pt-16">
-          <h2 className="text-3xl font-bold text-[#111827] mb-8">Our Philosophy</h2>
-          <div className="grid md:grid-cols-2 gap-8">
+      <div className="max-w-4xl mx-auto px-6 md:px-10 py-20">
+
+        {/* Philosophy */}
+        <section className="mb-20">
+          <div className="flex items-center gap-4 mb-12">
+            <span className="text-xs tracking-[0.2em] text-[#156064] uppercase font-medium">Philosophy</span>
+            <div className="flex-1 h-px bg-[#156064]/15" />
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6">
             {[
               {
                 title: "Privacy First",
                 description:
-                  "Your data is yours. We don't track, sell, or monetize user information. Period. Everything stays on your device.",
+                  "Your data is yours. We don't track, sell, or monetize user information. Everything stays on your device.",
               },
               {
                 title: "Solve Real Problems",
                 description:
-                  "We build tools for genuine pain points. Not another todo list. Not another email tool. Real solutions to real problems.",
+                  "Not another todo list. We build tools for genuine pain points — problems that actually slow people down.",
               },
               {
-                title: "Simple Design",
+                title: "Simple by Design",
                 description:
-                  "Complexity is the enemy. Our tools should work intuitively without a 50-page manual. If it's not simple, we redesign.",
+                  "Complexity is the enemy. Our tools work intuitively without a manual. If it needs explaining, we redesign it.",
               },
               {
                 title: "Open & Portable",
                 description:
-                  "Your data should be portable. Export as CSV, PDF, or standard formats. Never locked in. Always in control.",
+                  "Your data should be portable. Export in standard formats. Never locked in, always in control.",
               },
             ].map((item, i) => (
-              <div key={i} className="p-6 bg-white rounded-lg border border-[#E5E7EB] hover:border-[#F97316] transition-colors">
-                <h3 className="text-xl font-bold text-[#111827] mb-3">{item.title}</h3>
-                <p className="text-[#6B7280] text-sm">{item.description}</p>
+              <div
+                key={i}
+                className="border border-black/8 p-8 hover:border-[#00C49A] transition-colors"
+              >
+                <h3 className="text-lg font-bold text-[#000000] mb-3">{item.title}</h3>
+                <p className="text-sm text-[#000000]/55 leading-relaxed">{item.description}</p>
               </div>
             ))}
           </div>
         </section>
 
-        <section className="mb-16 border-t border-[#E5E7EB] pt-16">
-          <h2 className="text-3xl font-bold text-[#111827] mb-8">What We're Building</h2>
-          <div className="bg-white rounded-lg border border-[#E5E7EB] p-8">
-            <p className="text-lg text-[#6B7280] mb-6">
-              PennyPincher is our first product, solving the privacy-first budgeting problem. It's live today and used
-              by people who care about their financial privacy.
-            </p>
-            <p className="text-lg text-[#6B7280] mb-6">
-              More tools are coming. Each one will be built with the same principles: privacy, simplicity, and real
-              value.
-            </p>
-            <Link
-              href="/tools/penny-pincher"
-              className="inline-flex items-center justify-center px-6 py-3 bg-[#F97316] text-white font-semibold rounded-lg hover:bg-[#EA580C] transition-all"
-            >
-              Explore PennyPincher
-            </Link>
+        {/* What we're building */}
+        <section className="mb-20">
+          <div className="flex items-center gap-4 mb-12">
+            <span className="text-xs tracking-[0.2em] text-[#156064] uppercase font-medium">What we&apos;re building</span>
+            <div className="flex-1 h-px bg-[#156064]/15" />
           </div>
+
+          <p className="text-base text-[#000000]/60 leading-relaxed mb-6 max-w-2xl">
+            PennyPincher is our first product — privacy-first budgeting, live today. More tools are in
+            development, each built with the same principles: privacy, simplicity, and real value.
+          </p>
+
+          <Link
+            href="/products/penny-pincher"
+            className="inline-flex items-center gap-2 text-sm font-semibold text-[#156064] hover:text-[#00C49A] transition-colors"
+          >
+            Explore PennyPincher →
+          </Link>
         </section>
 
-        <section className="text-center border-t border-gray-100 pt-16">
-          <h2 className="text-3xl font-bold text-content-primary mb-6">Get In Touch</h2>
-          <p className="text-lg text-content-secondary mb-8 max-w-2xl mx-auto">
-            Have feedback? Want to collaborate? Just say hello.
+        {/* Contact */}
+        <section className="border-t border-black/10 pt-20">
+          <h2 className="text-2xl font-bold text-[#000000] mb-4">Get in touch</h2>
+          <p className="text-sm text-[#000000]/55 max-w-md">
+            Use the <Link href="/submit" className="text-[#156064] hover:text-[#00C49A] transition-colors">Need a solution?</Link> form or <Link href="/showcase" className="text-[#156064] hover:text-[#00C49A] transition-colors">Showcase Your Product</Link> to reach us.
           </p>
-          <a
-            href="mailto:hello@itssolved.ai"
-            className="inline-flex items-center justify-center px-8 py-3 bg-primary text-secondary font-semibold rounded-lg hover:bg-opacity-90 transition-all"
-          >
-            Send us an email
-          </a>
         </section>
+
       </div>
     </div>
   );
