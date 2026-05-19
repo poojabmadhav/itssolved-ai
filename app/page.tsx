@@ -36,6 +36,9 @@ export default function Home() {
                   Track where your pennies roll while your data stays on your device.
                   No cloud, no subscriptions.
                 </p>
+                <p className="text-[10px] text-[#FFFFFC]/25 mt-4 pt-4 border-t border-[#FFFFFC]/10">
+                  Built by ItsSolved.ai
+                </p>
               </div>
             </div>
           </Link>
