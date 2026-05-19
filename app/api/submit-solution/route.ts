@@ -10,6 +10,13 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
     }
 
+    // Log submission regardless — email only fires once env vars are configured
+    console.log("Solution request:", { problem, workaround, frequency, email: email || "(none)" });
+
+    if (!process.env.RESEND_API_KEY || !process.env.RECIPIENT_EMAIL) {
+      return NextResponse.json({ ok: true });
+    }
+
     await resend.emails.send({
       from: "ItsSolved.ai <onboarding@resend.dev>",
       to: process.env.RECIPIENT_EMAIL!,
